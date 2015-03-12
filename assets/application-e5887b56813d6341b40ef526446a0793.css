@@ -541,8 +541,8 @@ pre, h1, h2, h3, h4, h5, h6, p, .posts, .posts-archive, .posts-archive__date {
   clear: both; }
 
 html {
-  font: 16px/1.5 "Open Sans", sans-serif;
-  font-weight: 400;
+  font: 16px/1.5 "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased; }
   @media screen and (min-width: 640px) {
     html {
@@ -634,18 +634,18 @@ img.figure {
 .logo {
   float: left;
   display: inline-block;
-  height: 100px;
+  height: 60px;
   margin: 0;
   padding: 0; }
   @media screen and (min-width: 640px) {
     .logo {
-      height: 150px; } }
+      height: 100px; } }
 
 .site-logo {
-  height: 100px; }
+  height: 60px; }
   @media screen and (min-width: 640px) {
     .site-logo {
-      height: 200px; } }
+      height: 100px; } }
 
 .site-nav {
   float: right;

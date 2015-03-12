@@ -3,6 +3,21 @@
   
     
       <url>
+        <loc>http://www.hlin.co/blog/Alzheimers/</loc>
+        
+        <lastmod>2015-03-12T00:00:00+11:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.5</priority>
+        
+      </url>
+    
+  
+    
+      <url>
         <loc>http://www.hlin.co/blog/Illustrations_G-Pranckevicius/</loc>
         
         <lastmod>2015-03-09T00:00:00+11:00</lastmod>
@@ -39,25 +54,10 @@
       <url>
         <loc>http://www.hlin.co/blog/</loc>
         
-        <lastmod>2015-03-09T17:07:21+11:00</lastmod>
+        <lastmod>2015-03-13T09:45:45+11:00</lastmod>
         
         
         <changefreq>daily</changefreq>
-        
-        
-        <priority>0.3</priority>
-        
-      </url>
-    
-  
-    
-      <url>
-        <loc>http://www.hlin.co/about/</loc>
-        
-        <lastmod>2015-03-09T17:07:21+11:00</lastmod>
-        
-        
-        <changefreq>monthly</changefreq>
         
         
         <priority>0.3</priority>
@@ -69,13 +69,28 @@
       <url>
         <loc>http://www.hlin.co/</loc>
         
-        <lastmod>2015-03-09T17:07:21+11:00</lastmod>
+        <lastmod>2015-03-13T09:45:45+11:00</lastmod>
         
         
         <changefreq>daily</changefreq>
         
         
         <priority>0.9</priority>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://www.hlin.co/about/</loc>
+        
+        <lastmod>2015-03-13T09:45:45+11:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.3</priority>
         
       </url>
     

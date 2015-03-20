@@ -3,6 +3,21 @@
   
     
       <url>
+        <loc>http://www.hlin.co/blog/2015-03-17-Karaoke-Disruption/</loc>
+        
+        <lastmod>2015-03-20T12:20:06+11:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.5</priority>
+        
+      </url>
+    
+  
+    
+      <url>
         <loc>http://www.hlin.co/blog/Ghost-City/</loc>
         
         <lastmod>2015-03-20T00:00:00+11:00</lastmod>
@@ -18,9 +33,39 @@
   
     
       <url>
+        <loc>http://www.hlin.co/blog/ideas/</loc>
+        
+        <lastmod>2015-03-17T17:04:41+11:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.5</priority>
+        
+      </url>
+    
+  
+    
+      <url>
         <loc>http://www.hlin.co/blog/Alzheimers/</loc>
         
         <lastmod>2015-03-12T00:00:00+11:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.5</priority>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://www.hlin.co/blog/2015-01-01-template/</loc>
+        
+        <lastmod>2015-03-10T09:22:35+11:00</lastmod>
         
         
         <changefreq>monthly</changefreq>
@@ -69,7 +114,7 @@
       <url>
         <loc>http://www.hlin.co/blog/</loc>
         
-        <lastmod>2015-03-20T12:07:07+11:00</lastmod>
+        <lastmod>2015-03-20T12:21:04+11:00</lastmod>
         
         
         <changefreq>daily</changefreq>
@@ -84,7 +129,7 @@
       <url>
         <loc>http://www.hlin.co/</loc>
         
-        <lastmod>2015-03-20T12:07:07+11:00</lastmod>
+        <lastmod>2015-03-20T12:21:04+11:00</lastmod>
         
         
         <changefreq>daily</changefreq>
@@ -99,7 +144,7 @@
       <url>
         <loc>http://www.hlin.co/about/</loc>
         
-        <lastmod>2015-03-20T12:07:07+11:00</lastmod>
+        <lastmod>2015-03-20T12:21:04+11:00</lastmod>
         
         
         <changefreq>monthly</changefreq>

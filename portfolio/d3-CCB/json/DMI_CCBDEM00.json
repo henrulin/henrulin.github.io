@@ -1,0 +1,3564 @@
+[
+{
+	"name":"CI_ACCT",	"size":12,
+	"imports":[		"CI_ACCT_ALERT"
+,		"CI_ACCT_APAY"
+,		"CI_ACCT_CHAR"
+,		"CI_ACCT_MSG"
+,		"CI_ACCT_PER"
+,		"CI_ACCT_STG"
+,		"CI_ADM_RVW_SCH"
+,		"CI_BILL"
+,		"CI_BPRT_GRP"
+,		"CI_BUD_RVW"
+,		"CI_CASE"
+,		"CI_COLL_AGY_REF"
+,		"CI_COLL_PROC"
+,		"CI_CR_RAT_HIST"
+,		"CI_DCL"
+,		"CI_DEP_RVW"
+,		"CI_ENRL"
+,		"CI_FA_STEP"
+,		"CI_LANDLORD"
+,		"CI_MATCH_EVT"
+,		"CI_NCD"
+,		"CI_OD_PROC"
+,		"CI_PAY"
+,		"CI_PAY_TNDR"
+,		"CI_PEVT_DTL_ST"
+,		"CI_PP"
+,		"CI_PP"
+,		"CI_QUOTE"
+,		"CI_REBATE_CLAIM"
+,		"CI_REPL_ACCT"
+,		"CI_SA"
+,		"CI_SCM_ACCT"
+,		"CI_SS_ADDR_OVRD"
+,		"CI_SS_PHONE_OVRD"
+,		"CI_STM_CNST_DTL"
+,		"CI_THRD_PTY"
+
+		]
+}, 
+{
+	"name":"CI_ACCT_APAY",	"size":12,
+	"imports":[		"CI_APAY_CLR_STG"
+
+		]
+}, 
+{
+	"name":"CI_ACCT_MGMT_GR",	"size":12,
+	"imports":[		"CI_ACCT"
+,		"CI_ACCT_MGRP_RL"
+,		"CI_CAMPAIGN"
+,		"CI_ENRL"
+
+		]
+}, 
+{
+	"name":"CI_ACCT_MSG",	"size":12,
+	"imports":[		"CI_ACCT_MSG_PRM"
+,		"CI_ACCT_MSG_PRM"
+,		"CI_ACCT_MSG_PRM"
+,		"CI_ACCT_MSG_PRM"
+
+		]
+}, 
+{
+	"name":"CI_ACCT_PER",	"size":12,
+	"imports":[		"CI_PER_ADDR_OVRD"
+,		"CI_PER_ADDR_OVRD"
+,		"CI_PER_ADDR_OVRD"
+,		"CI_PER_ADDR_OVRD"
+
+		]
+}, 
+{
+	"name":"CI_ACCT_REL_TYP",	"size":12,
+	"imports":[		"CI_ACCT_PER"
+
+		]
+}, 
+{
+	"name":"CI_ACC_GRP",	"size":12,
+	"imports":[		"CI_ACC_GRP_DAR"
+
+		]
+}, 
+{
+	"name":"CI_ADJ",	"size":12,
+	"imports":[		"CI_ADJ"
+,		"CI_ADJ_APREQ"
+,		"CI_ADJ_CALC_LN"
+,		"CI_ADJ_CHAR"
+,		"CI_ADJ_STG_UP"
+,		"CI_ADJ_STG_UP"
+,		"CI_FT"
+,		"CI_FT_PROC"
+,		"CI_PAY_SEG"
+,		"CI_PAY_TNDR"
+
+		]
+}, 
+{
+	"name":"CI_ADJ_CALC_LN",	"size":12,
+	"imports":[		"CI_ADJ_CL_CHAR"
+,		"CI_ADJ_CL_CHAR"
+,		"CI_ADJ_CL_CHAR"
+,		"CI_ADJ_CL_CHAR"
+
+		]
+}, 
+{
+	"name":"CI_ADJ_CAN_RSN",	"size":12,
+	"imports":[		"CI_ADJ"
+
+		]
+}, 
+{
+	"name":"CI_ADJ_STG_CTL",	"size":12,
+	"imports":[		"CI_ADJ_STG_CTL_CHAR"
+,		"CI_ADJ_STG_CTL_MSGP"
+,		"CI_ADJ_STG_UP"
+
+		]
+}, 
+{
+	"name":"CI_ADJ_STG_UP",	"size":12,
+	"imports":[		"CI_ADJ_STG_UP_CHAR"
+,		"CI_ADJ_STG_UP_MSGP"
+
+		]
+}, 
+{
+	"name":"CI_ADJ_TYPE",	"size":12,
+	"imports":[		"CI_ADJ"
+,		"CI_ADJT_ADJTPRF"
+,		"CI_ADJ_STG_UP"
+,		"CI_ADJ_TY_ALG"
+,		"CI_ADJ_TY_CHAR"
+,		"CI_CHTY_ADJTY"
+,		"CI_FT"
+,		"CI_SA_TYPE"
+,		"CI_SA_TYPE"
+,		"CI_SA_TYPE"
+,		"CI_SA_TYPE"
+,		"CI_SS_OPT"
+
+		]
+}, 
+{
+	"name":"CI_ADJ_TYP_PROF",	"size":12,
+	"imports":[		"CI_ADJT_ADJTPRF"
+,		"CI_SAT_ADJ_PROF"
+
+		]
+}, 
+{
+	"name":"CI_ALERT_TYPE",	"size":12,
+	"imports":[		"CI_ACCT_ALERT"
+
+		]
+}, 
+{
+	"name":"CI_ALG",	"size":12,
+	"imports":[		"CI_ALG_VER"
+,		"CI_BATCH_CTRL_ALG"
+,		"CI_CHAR_TYPE"
+,		"CI_DB_INSTR_ALG"
+,		"CI_GEO_TYPE"
+,		"CI_INSTALL_ALG"
+,		"CI_MD_MO_ALG"
+,		"CI_MD_RPT"
+,		"CI_NT_DWN_FORM"
+,		"CI_PHONE_TYPE"
+,		"CI_SCR_CRT"
+,		"CI_SCR_CRT"
+,		"CI_TD_TYPE_ALG"
+
+		]
+}, 
+{
+	"name":"CI_ALG_TYPE",	"size":12,
+	"imports":[		"CI_ALG"
+,		"CI_ALG_TYPE_PRM"
+
+		]
+}, 
+{
+	"name":"CI_ALG_VER",	"size":12,
+	"imports":[		"CI_ALG_PARM"
+,		"CI_ALG_PARM"
+,		"CI_ALG_PARM"
+,		"CI_ALG_PARM"
+
+		]
+}, 
+{
+	"name":"CI_AM_ACTIVITY_TYPE",	"size":12,
+	"imports":[		"CI_AM_REQ"
+
+		]
+}, 
+{
+	"name":"CI_AM_REQ",	"size":12,
+	"imports":[		"CI_AM_REQ_LOG"
+
+		]
+}, 
+{
+	"name":"CI_AM_REQ_LOG",	"size":12,
+	"imports":[		"CI_AM_REQ_LOG_PARM"
+,		"CI_AM_REQ_LOG_PARM"
+,		"CI_AM_REQ_LOG_PARM"
+,		"CI_AM_REQ_LOG_PARM"
+
+		]
+}, 
+{
+	"name":"CI_APAY_CLR_STG",	"size":12,
+	"imports":[		"CI_NB_SCHED_PAY"
+,		"CI_PP_SCHED_PAY"
+
+		]
+}, 
+{
+	"name":"CI_APAY_RT_TYPE",	"size":12,
+	"imports":[		"CI_APAY_SRC"
+
+		]
+}, 
+{
+	"name":"CI_APAY_SRC",	"size":12,
+	"imports":[		"CI_ACCT_APAY"
+,		"CI_APAY_CLR_STG"
+,		"CI_PEVT_DTL_ST"
+
+		]
+}, 
+{
+	"name":"CI_APPR_PROF",	"size":12,
+	"imports":[		"CI_ADJ_TYPE"
+,		"CI_APPR_REQ"
+
+		]
+}, 
+{
+	"name":"CI_APPR_REQ",	"size":12,
+	"imports":[		"CI_ADJ"
+,		"CI_APPR_REQ_CHAR"
+,		"CI_APPR_REQ_LOG"
+,		"CI_APPR_REQ_LOG_PARM"
+
+		]
+}, 
+{
+	"name":"CI_APPR_REQ_LOG",	"size":12,
+	"imports":[		"CI_APPR_REQ_LOG_PARM"
+,		"CI_APPR_REQ_LOG_PARM"
+,		"CI_APPR_REQ_LOG_PARM"
+,		"CI_APPR_REQ_LOG_PARM"
+
+		]
+}, 
+{
+	"name":"CI_APREQ_TYPE",	"size":12,
+	"imports":[		"CI_ADJ_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_ARC_ROOT_OBJ",	"size":12,
+	"imports":[		"CI_ARC_ROOT_INST"
+,		"CI_ARC_ROOT_INST"
+,		"CI_ARC_ROOT_PK"
+
+		]
+}, 
+{
+	"name":"CI_BAL_CTL_GRP",	"size":12,
+	"imports":[		"CI_BAL_CTL_MEM"
+,		"CI_BAL_CTL_TMP"
+,		"CI_FT"
+
+		]
+}, 
+{
+	"name":"CI_BANK",	"size":12,
+	"imports":[		"CI_BANK_ACCOUNT"
+,		"CI_TNDR_DEP"
+
+		]
+}, 
+{
+	"name":"CI_BANK_ACCOUNT",	"size":12,
+	"imports":[		"CI_TNDR_DEP"
+,		"CI_TNDR_DEP"
+,		"CI_TNDR_DEP"
+,		"CI_TNDR_DEP"
+,		"CI_TNDR_SRCE"
+,		"CI_TNDR_SRCE"
+,		"CI_TNDR_SRCE"
+,		"CI_TNDR_SRCE"
+
+		]
+}, 
+{
+	"name":"CI_BATCH_CTRL",	"size":12,
+	"imports":[		"CI_BATCH_CTRL_ALG"
+,		"CI_BATCH_CTRL_P"
+,		"CI_BATCH_JOB"
+,		"CI_BATCH_RUN"
+,		"CI_DB_PROC"
+,		"CI_NT_DWN"
+,		"CI_NT_DWN_PROF"
+,		"CI_ROOT_OBJ"
+,		"CI_TD_ENTRY"
+,		"CI_TD_TYPE"
+,		"CI_TD_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_BATCH_JOB",	"size":12,
+	"imports":[		"CI_BATCH_JOB_PRM"
+
+		]
+}, 
+{
+	"name":"CI_BATCH_RUN",	"size":12,
+	"imports":[		"CI_BATCH_THD"
+,		"CI_BATCH_THD"
+,		"CI_BATCH_THD"
+,		"CI_BATCH_THD"
+,		"CI_BATCH_THD"
+,		"CI_BATCH_THD"
+,		"CI_BATCH_THD"
+,		"CI_BATCH_THD"
+,		"CI_BATCH_THD"
+
+		]
+}, 
+{
+	"name":"CI_BATCH_THD",	"size":12,
+	"imports":[		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+,		"CI_BATCH_INST"
+
+		]
+}, 
+{
+	"name":"CI_BCHG_LINE_UP",	"size":12,
+	"imports":[		"CI_B_LN_UP_CHAR"
+,		"CI_B_LN_UP_CHAR"
+,		"CI_B_LN_UP_CHAR"
+,		"CI_B_LN_UP_CHAR"
+
+		]
+}, 
+{
+	"name":"CI_BCHG_UP",	"size":12,
+	"imports":[		"CI_BCHG_LINE_UP"
+,		"CI_BCHG_UP_EXCP"
+,		"CI_BCHG_UP_READ"
+,		"CI_BCHG_UP_SQ"
+
+		]
+}, 
+{
+	"name":"CI_BCHG_UP_XTYP",	"size":12,
+	"imports":[		"CI_BCHG_LINE_UP"
+,		"CI_BCHG_UP_OVRD"
+
+		]
+}, 
+{
+	"name":"CI_BF",	"size":12,
+	"imports":[		"CI_BF_CHAR"
+,		"CI_CVAL_TMPL"
+,		"CI_RC"
+,		"CI_RDR_TMPL"
+,		"CI_SA_CONTERM"
+,		"CI_SA_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_BFCH_TOUGRP",	"size":12,
+	"imports":[		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_BF_VAL"
+
+		]
+}, 
+{
+	"name":"CI_BF_CHAR",	"size":12,
+	"imports":[		"CI_BFCH_TOUGRP"
+,		"CI_BFCH_TOUGRP"
+,		"CI_BFCH_TOUGRP"
+,		"CI_BFCH_TOUGRP"
+,		"CI_BFCH_TOUGRP"
+,		"CI_BFCH_TOUGRP"
+,		"CI_BFCH_TOUGRP"
+,		"CI_BFCH_TOUGRP"
+,		"CI_BFCH_TOUGRP"
+,		"CI_BF_CHAR_DST"
+,		"CI_BF_CHAR_DST"
+,		"CI_BF_CHAR_DST"
+,		"CI_BF_CHAR_DST"
+,		"CI_BF_CHAR_DST"
+,		"CI_BF_CHAR_DST"
+,		"CI_BF_CHAR_DST"
+,		"CI_BF_CHAR_DST"
+,		"CI_BF_CHAR_DST"
+,		"CI_BF_VAL"
+,		"CI_BF_VAL"
+,		"CI_BF_VAL"
+,		"CI_BF_VAL"
+,		"CI_BF_VAL"
+,		"CI_BF_VAL"
+,		"CI_BF_VAL"
+,		"CI_BF_VAL"
+,		"CI_BF_VAL"
+,		"CI_INTV_VAL_SET"
+,		"CI_INTV_VAL_SET"
+,		"CI_INTV_VAL_SET"
+,		"CI_INTV_VAL_SET"
+,		"CI_INTV_VAL_SET"
+,		"CI_INTV_VAL_SET"
+,		"CI_INTV_VAL_SET"
+,		"CI_INTV_VAL_SET"
+,		"CI_INTV_VAL_SET"
+
+		]
+}, 
+{
+	"name":"CI_BILL",	"size":12,
+	"imports":[		"CI_APAY_CLR_STG"
+,		"CI_BILL"
+,		"CI_BILL_CHAR"
+,		"CI_BILL_EXCP"
+,		"CI_BILL_MSGS"
+,		"CI_BILL_ROUTING"
+,		"CI_BILL_RVW_SCH"
+,		"CI_BILL_SA"
+,		"CI_BSEG"
+,		"CI_FT"
+,		"CI_FT"
+
+		]
+}, 
+{
+	"name":"CI_BILL_CAN_RSN",	"size":12,
+	"imports":[		"CI_BSEG"
+
+		]
+}, 
+{
+	"name":"CI_BILL_CHG",	"size":12,
+	"imports":[		"CI_BCHG_READ"
+,		"CI_BCHG_SQ"
+,		"CI_BCHG_UP"
+,		"CI_BSEG_CALC"
+,		"CI_B_CHG_LINE"
+
+		]
+}, 
+{
+	"name":"CI_BILL_CYC",	"size":12,
+	"imports":[		"CI_ACCT"
+,		"CI_BILL_CYC_SCH"
+,		"CI_MR_CYC"
+
+		]
+}, 
+{
+	"name":"CI_BILL_CYC_SCH",	"size":12,
+	"imports":[		"CI_BILL"
+,		"CI_BILL"
+,		"CI_BILL"
+,		"CI_BILL"
+,		"CI_BSEG"
+,		"CI_BSEG"
+,		"CI_BSEG"
+,		"CI_BSEG"
+
+		]
+}, 
+{
+	"name":"CI_BILL_MSG",	"size":12,
+	"imports":[		"CI_ACCT_MSG"
+,		"CI_BILL_MSGS"
+,		"CI_BSEG_MSG"
+,		"CI_CUST_CL_MSG"
+,		"CI_MR_REM_BMSG"
+,		"CI_RS_BMSG"
+,		"CI_SA_MSG"
+,		"CI_SPR_BMSG"
+
+		]
+}, 
+{
+	"name":"CI_BILL_MSGS",	"size":12,
+	"imports":[		"CI_BILL_MSG_PRM"
+,		"CI_BILL_MSG_PRM"
+,		"CI_BILL_MSG_PRM"
+,		"CI_BILL_MSG_PRM"
+
+		]
+}, 
+{
+	"name":"CI_BILL_PERIOD",	"size":12,
+	"imports":[		"CI_BILL_PER_SCH"
+,		"CI_SA_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_BILL_RT_TYPE",	"size":12,
+	"imports":[		"CI_ACCT_PER"
+,		"CI_BILL_ROUTING"
+,		"CI_ENRL"
+,		"CI_SS_ADDR_OVRD"
+
+		]
+}, 
+{
+	"name":"CI_BILL_SA",	"size":12,
+	"imports":[		"CI_STM_DTL"
+,		"CI_STM_DTL"
+,		"CI_STM_DTL"
+,		"CI_STM_DTL"
+
+		]
+}, 
+{
+	"name":"CI_BILL_SCNR",	"size":12,
+	"imports":[		"CI_BILL_SCNR_SQ"
+,		"CI_BSEG"
+
+		]
+}, 
+{
+	"name":"CI_BILL_SEG_TYP",	"size":12,
+	"imports":[		"CI_SA_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_BPRT_GRP",	"size":12,
+	"imports":[		"CI_BPRT_SUBGRP"
+
+		]
+}, 
+{
+	"name":"CI_BPRT_SUBGRP",	"size":12,
+	"imports":[		"CI_BPRT_SGRP_SA"
+,		"CI_BPRT_SGRP_SA"
+,		"CI_BPRT_SGRP_SA"
+,		"CI_BPRT_SGRP_SA"
+
+		]
+}, 
+{
+	"name":"CI_BSEG",	"size":12,
+	"imports":[		"CI_BSEG"
+,		"CI_BSEG"
+,		"CI_BSEG"
+,		"CI_BSEG_CALC"
+,		"CI_BSEG_EXCP"
+,		"CI_BSEG_ITEM"
+,		"CI_BSEG_MSG"
+,		"CI_BSEG_READ"
+,		"CI_BSEG_SQ"
+,		"CI_FT"
+
+		]
+}, 
+{
+	"name":"CI_BSEG_CALC",	"size":12,
+	"imports":[		"CI_BSEG_CALC_LN"
+,		"CI_BSEG_CALC_LN"
+,		"CI_BSEG_CALC_LN"
+,		"CI_BSEG_CALC_LN"
+
+		]
+}, 
+{
+	"name":"CI_BSEG_CALC_LN",	"size":12,
+	"imports":[		"CI_BSEG_CL_CHAR"
+,		"CI_BSEG_CL_CHAR"
+,		"CI_BSEG_CL_CHAR"
+,		"CI_BSEG_CL_CHAR"
+,		"CI_BSEG_CL_CHAR"
+,		"CI_BSEG_CL_CHAR"
+,		"CI_BSEG_CL_CHAR"
+,		"CI_BSEG_CL_CHAR"
+,		"CI_BSEG_CL_CHAR"
+
+		]
+}, 
+{
+	"name":"CI_BUD_PLAN",	"size":12,
+	"imports":[		"CI_ACCT"
+,		"CI_CUST_CL_CTRL"
+
+		]
+}, 
+{
+	"name":"CI_B_CHG_LINE",	"size":12,
+	"imports":[		"CI_B_LN_CHAR"
+,		"CI_B_LN_CHAR"
+,		"CI_B_LN_CHAR"
+,		"CI_B_LN_CHAR"
+
+		]
+}, 
+{
+	"name":"CI_B_CHG_TMPLT",	"size":12,
+	"imports":[		"CI_B_TMPLT_LINE"
+,		"CI_B_TMPLT_SQ"
+,		"CI_SA_TYPE_BC"
+,		"CI_SS_OPT"
+
+		]
+}, 
+{
+	"name":"CI_B_TMPLT_LINE",	"size":12,
+	"imports":[		"CI_B_TM_LN_CHA"
+,		"CI_B_TM_LN_CHA"
+,		"CI_B_TM_LN_CHA"
+,		"CI_B_TM_LN_CHA"
+
+		]
+}, 
+{
+	"name":"CI_CAL_GL",	"size":12,
+	"imports":[		"CI_CAL_PERIOD"
+,		"CI_GL_DIVISION"
+
+		]
+}, 
+{
+	"name":"CI_CAL_WORK",	"size":12,
+	"imports":[		"CI_CAL_HOL"
+
+		]
+}, 
+{
+	"name":"CI_CAMPAIGN",	"size":12,
+	"imports":[		"CI_CAMP_ALG"
+,		"CI_CAMP_FLD_TYPE"
+,		"CI_ENRL"
+,		"CI_PKG"
+
+		]
+}, 
+{
+	"name":"CI_CASE",	"size":12,
+	"imports":[		"CI_CASE_CHAR"
+,		"CI_CASE_LOG"
+
+		]
+}, 
+{
+	"name":"CI_CASE_LOG",	"size":12,
+	"imports":[		"CI_CASE_LOG_PARM"
+,		"CI_CASE_LOG_PARM"
+,		"CI_CASE_LOG_PARM"
+,		"CI_CASE_LOG_PARM"
+
+		]
+}, 
+{
+	"name":"CI_CASE_STATUS",	"size":12,
+	"imports":[		"CI_CASE"
+,		"CI_CASE"
+,		"CI_CASE"
+,		"CI_CASE"
+,		"CI_CASE_LOG"
+,		"CI_CASE_LOG"
+,		"CI_CASE_LOG"
+,		"CI_CASE_LOG"
+,		"CI_CASE_ST_ALG"
+,		"CI_CASE_ST_ALG"
+,		"CI_CASE_ST_ALG"
+,		"CI_CASE_ST_ALG"
+,		"CI_CASE_ST_CHTY"
+,		"CI_CASE_ST_CHTY"
+,		"CI_CASE_ST_CHTY"
+,		"CI_CASE_ST_CHTY"
+,		"CI_CASE_TR_RULE"
+,		"CI_CASE_TR_RULE"
+,		"CI_CASE_TR_RULE"
+,		"CI_CASE_TR_RULE"
+,		"CI_CASE_TR_RULE"
+,		"CI_CASE_TR_RULE"
+,		"CI_CASE_TR_RULE"
+,		"CI_CASE_TR_RULE"
+
+		]
+}, 
+{
+	"name":"CI_CASE_TYPE",	"size":12,
+	"imports":[		"CI_CASE"
+,		"CI_CASE_STATUS"
+,		"CI_CASE_TYPE_ALG"
+,		"CI_CHTY_CASETY"
+
+		]
+}, 
+{
+	"name":"CI_CC",	"size":12,
+	"imports":[		"CI_CC_CHAR"
+,		"CI_CC_LOG"
+,		"CI_COLL_EVT_CC"
+,		"CI_FA_STEP"
+,		"CI_SEV_EVT_CC"
+
+		]
+}, 
+{
+	"name":"CI_CC_CL",	"size":12,
+	"imports":[		"CI_CC_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_CC_TYPE",	"size":12,
+	"imports":[		"CI_CC"
+,		"CI_CC"
+,		"CI_CC"
+,		"CI_CC"
+,		"CI_CHTY_CCTY"
+,		"CI_CHTY_CCTY"
+,		"CI_CHTY_CCTY"
+,		"CI_CHTY_CCTY"
+,		"CI_COLL_EVT_TYP"
+,		"CI_COLL_EVT_TYP"
+,		"CI_COLL_EVT_TYP"
+,		"CI_COLL_EVT_TYP"
+,		"CI_SEV_EVT_TYPE"
+,		"CI_SEV_EVT_TYPE"
+,		"CI_SEV_EVT_TYPE"
+,		"CI_SEV_EVT_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_CEVT_CAN_RSN",	"size":12,
+	"imports":[		"CI_CUT_EVT"
+
+		]
+}, 
+{
+	"name":"CI_CHAR_ENTITY",	"size":12,
+	"imports":[		"CI_SCR_CRT"
+,		"CI_SCR_CRT"
+,		"CI_SCR_CRT"
+,		"CI_SCR_CRT"
+
+		]
+}, 
+{
+	"name":"CI_CHAR_TYPE",	"size":12,
+	"imports":[		"CI_CHAR_ENTITY"
+,		"CI_CHAR_VAL"
+,		"CI_CHTY_TDTY"
+,		"CI_MD_RPT_PARM"
+,		"CI_NT_DWN_CHAR"
+,		"CI_NT_UP_CHAR"
+,		"CI_TD_ENTRY_CHA"
+,		"CI_TD_TYPE_CHAR"
+
+		]
+}, 
+{
+	"name":"CI_CHAR_VAL",	"size":12,
+	"imports":[		"CI_CHTY_TDTY"
+,		"CI_CHTY_TDTY"
+,		"CI_CHTY_TDTY"
+,		"CI_CHTY_TDTY"
+,		"CI_MD_RPT_PARM"
+,		"CI_MD_RPT_PARM"
+,		"CI_MD_RPT_PARM"
+,		"CI_MD_RPT_PARM"
+,		"CI_NT_DWN_CHAR"
+,		"CI_NT_DWN_CHAR"
+,		"CI_NT_DWN_CHAR"
+,		"CI_NT_DWN_CHAR"
+,		"CI_NT_UP_CHAR"
+,		"CI_NT_UP_CHAR"
+,		"CI_NT_UP_CHAR"
+,		"CI_NT_UP_CHAR"
+,		"CI_TD_ENTRY_CHA"
+,		"CI_TD_ENTRY_CHA"
+,		"CI_TD_ENTRY_CHA"
+,		"CI_TD_ENTRY_CHA"
+,		"CI_TD_TYPE_CHAR"
+,		"CI_TD_TYPE_CHAR"
+,		"CI_TD_TYPE_CHAR"
+,		"CI_TD_TYPE_CHAR"
+
+		]
+}, 
+{
+	"name":"CI_CHTY_CASETY",	"size":12,
+	"imports":[		"CI_CASE_ST_CHTY"
+,		"CI_CASE_ST_CHTY"
+,		"CI_CASE_ST_CHTY"
+,		"CI_CASE_ST_CHTY"
+
+		]
+}, 
+{
+	"name":"CI_CIS_DIVISION",	"size":12,
+	"imports":[		"CI_ACCT"
+,		"CI_CIS_DIV_CHAR"
+,		"CI_COLL_CL_CNTL"
+,		"CI_CUST_CL_CTRL"
+,		"CI_DIV_TD_ROLE"
+,		"CI_ENRL"
+,		"CI_FA_CMPL_CTRL"
+,		"CI_FT"
+,		"CI_OD_RULE_ALG"
+,		"CI_POST_DFLT"
+,		"CI_PREM"
+,		"CI_SA_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_COLL_AGY",	"size":12,
+	"imports":[		"CI_COLL_AGY_REF"
+
+		]
+}, 
+{
+	"name":"CI_COLL_AGY_REF",	"size":12,
+	"imports":[		"CI_COLL_AGY_HIS"
+
+		]
+}, 
+{
+	"name":"CI_COLL_CL",	"size":12,
+	"imports":[		"CI_ACCT"
+,		"CI_COLL_CL_CNTL"
+,		"CI_CUST_CL"
+,		"CI_OD_RULE_ALG"
+
+		]
+}, 
+{
+	"name":"CI_COLL_CL_CNTL",	"size":12,
+	"imports":[		"CI_COLL_CRIT_CT"
+,		"CI_COLL_PROC"
+
+		]
+}, 
+{
+	"name":"CI_COLL_CRIT_CT",	"size":12,
+	"imports":[		"CI_COLL_CRIT"
+,		"CI_COLL_CRIT"
+,		"CI_COLL_CRIT"
+,		"CI_COLL_CRIT"
+
+		]
+}, 
+{
+	"name":"CI_COLL_EVT",	"size":12,
+	"imports":[		"CI_COLL_EVT_CC"
+,		"CI_COLL_EVT_CC"
+,		"CI_COLL_EVT_CC"
+,		"CI_COLL_EVT_CC"
+,		"CI_CR_RAT_HIST"
+,		"CI_CR_RAT_HIST"
+,		"CI_CR_RAT_HIST"
+,		"CI_CR_RAT_HIST"
+,		"CI_SEV_PROC"
+,		"CI_SEV_PROC"
+,		"CI_SEV_PROC"
+,		"CI_SEV_PROC"
+
+		]
+}, 
+{
+	"name":"CI_COLL_EVT_TYP",	"size":12,
+	"imports":[		"CI_COLL_EVT"
+,		"CI_COLL_RESP"
+
+		]
+}, 
+{
+	"name":"CI_COLL_PROC",	"size":12,
+	"imports":[		"CI_COLL_EVT"
+,		"CI_COLL_PROC_SA"
+
+		]
+}, 
+{
+	"name":"CI_COLL_PROC_TM",	"size":12,
+	"imports":[		"CI_COLL_CRIT"
+,		"CI_COLL_PROC"
+,		"CI_COLL_RESP"
+
+		]
+}, 
+{
+	"name":"CI_COL_REF",	"size":12,
+	"imports":[		"CI_CAMP_FLD_TYPE"
+,		"CI_COL_REF_ALG"
+
+		]
+}, 
+{
+	"name":"CI_CONSV_PROG",	"size":12,
+	"imports":[		"CI_CONSV_PROG_CHAR"
+,		"CI_REBATE_CLAIM"
+,		"CI_REBATE_DEFN"
+
+		]
+}, 
+{
+	"name":"CI_CONT_QTY_TYP",	"size":12,
+	"imports":[		"CI_CONT_QTY_TMP"
+,		"CI_SA_CONT_QTY"
+
+		]
+}, 
+{
+	"name":"CI_COP",	"size":12,
+	"imports":[		"CI_COP_CHAR"
+,		"CI_COP_EVT"
+,		"CI_SA_COP"
+,		"CI_SS_OPT_COP"
+
+		]
+}, 
+{
+	"name":"CI_COP_EVT",	"size":12,
+	"imports":[		"CI_COP_EVT_CHAR"
+,		"CI_COP_EVT_EXC"
+,		"CI_SA_COP_OVRD"
+
+		]
+}, 
+{
+	"name":"CI_COP_EVT_EXC",	"size":12,
+	"imports":[		"CI_COP_EVT_EXP"
+
+		]
+}, 
+{
+	"name":"CI_COP_EVT_TYPE",	"size":12,
+	"imports":[		"CI_CHTY_COP_ETY"
+,		"CI_COP_EVT"
+
+		]
+}, 
+{
+	"name":"CI_COP_TYPE",	"size":12,
+	"imports":[		"CI_CHTY_COPTY"
+,		"CI_COP"
+,		"CI_COP_EVT_TYPE"
+,		"CI_COP_TYPE_ALG"
+,		"CI_SATY_COPTY"
+,		"CI_SS_OPT_COP"
+
+		]
+}, 
+{
+	"name":"CI_COUNTRY",	"size":12,
+	"imports":[		"CI_STATE"
+
+		]
+}, 
+{
+	"name":"CI_CR_UNIT",	"size":12,
+	"imports":[		"CI_SCM_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_CUST_CL",	"size":12,
+	"imports":[		"CI_ACCT"
+,		"CI_CAMPAIGN"
+,		"CI_CUST_CL_CTRL"
+,		"CI_CUST_CL_MSG"
+,		"CI_ENRL"
+
+		]
+}, 
+{
+	"name":"CI_CUST_CL_CTRL",	"size":12,
+	"imports":[		"CI_CCL_CTL_ALG"
+,		"CI_CCL_CTL_ALG"
+,		"CI_CCL_CTL_ALG"
+,		"CI_CCL_CTL_ALG"
+
+		]
+}, 
+{
+	"name":"CI_CUT_EVT",	"size":12,
+	"imports":[		"CI_CUT_EVT_DEP"
+,		"CI_CUT_EVT_DEP"
+,		"CI_CUT_EVT_DEP"
+,		"CI_CUT_EVT_DEP"
+,		"CI_OD_PROC_LOG"
+,		"CI_OD_PROC_LOG"
+,		"CI_OD_PROC_LOG"
+,		"CI_OD_PROC_LOG"
+
+		]
+}, 
+{
+	"name":"CI_CUT_EVT_TYPE",	"size":12,
+	"imports":[		"CI_CUT_EVT"
+,		"CI_CUT_EVT_TYP_ALG"
+,		"CI_CUT_RESP"
+
+		]
+}, 
+{
+	"name":"CI_CUT_PROC",	"size":12,
+	"imports":[		"CI_CUT_EVT"
+
+		]
+}, 
+{
+	"name":"CI_CUT_PROC_TMP",	"size":12,
+	"imports":[		"CI_CUT_PROC"
+,		"CI_CUT_PROC_TM_ALG"
+,		"CI_CUT_RESP"
+
+		]
+}, 
+{
+	"name":"CI_CUT_RESP",	"size":12,
+	"imports":[		"CI_CUT_RESP_DEP"
+,		"CI_CUT_RESP_DEP"
+,		"CI_CUT_RESP_DEP"
+,		"CI_CUT_RESP_DEP"
+
+		]
+}, 
+{
+	"name":"CI_CVAL_TMPL",	"size":12,
+	"imports":[		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_CVAL_TOU_TMP"
+
+		]
+}, 
+{
+	"name":"CI_DAR",	"size":12,
+	"imports":[		"CI_ACC_GRP_DAR"
+,		"CI_DAR_USR"
+
+		]
+}, 
+{
+	"name":"CI_DATA_DIFF",	"size":12,
+	"imports":[		"CI_DATA_DIFF_PK"
+,		"CI_ROOT_DIFF"
+
+		]
+}, 
+{
+	"name":"CI_DB_INSTR",	"size":12,
+	"imports":[		"CI_ARC_ROOT_INST"
+,		"CI_ARC_ROOT_INST"
+,		"CI_ARC_ROOT_INST"
+,		"CI_ARC_ROOT_INST"
+,		"CI_DB_INSTR_ALG"
+,		"CI_DB_INSTR_ALG"
+,		"CI_DB_INSTR_ALG"
+,		"CI_DB_INSTR_ALG"
+,		"CI_DB_INST_OVRD"
+,		"CI_DB_INST_OVRD"
+,		"CI_DB_INST_OVRD"
+,		"CI_DB_INST_OVRD"
+,		"CI_ROOT_INSTR"
+,		"CI_ROOT_INSTR"
+,		"CI_ROOT_INSTR"
+,		"CI_ROOT_INSTR"
+
+		]
+}, 
+{
+	"name":"CI_DB_PROC",	"size":12,
+	"imports":[		"CI_DB_INSTR"
+
+		]
+}, 
+{
+	"name":"CI_DEBT_CL",	"size":12,
+	"imports":[		"CI_COLL_CL_CNTL"
+,		"CI_DC_ALG"
+,		"CI_PP_TYPE"
+,		"CI_SA_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_DEP_CL",	"size":12,
+	"imports":[		"CI_DEP_RVW"
+,		"CI_NCD"
+,		"CI_SA_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_DEP_CTL",	"size":12,
+	"imports":[		"CI_DEP_CTL_CHAR"
+,		"CI_DEP_CTL_ST"
+,		"CI_TNDR_CTL"
+,		"CI_TNDR_DEP"
+
+		]
+}, 
+{
+	"name":"CI_DEP_CTL_ST",	"size":12,
+	"imports":[		"CI_TNDR_CTL_ST"
+,		"CI_TNDR_CTL_ST"
+,		"CI_TNDR_CTL_ST"
+,		"CI_TNDR_CTL_ST"
+
+		]
+}, 
+{
+	"name":"CI_DG_APP_SCHED",	"size":12,
+	"imports":[		"CI_FA"
+
+		]
+}, 
+{
+	"name":"CI_DISCON_LOC",	"size":12,
+	"imports":[		"CI_FAPR_TMPL"
+,		"CI_FA_STP_STGUP"
+,		"CI_SP"
+
+		]
+}, 
+{
+	"name":"CI_DISP_GRP",	"size":12,
+	"imports":[		"CI_DG_APP_SCHED"
+,		"CI_DISP_GRP"
+,		"CI_DISP_GRP_ALG"
+,		"CI_DISP_GRP_REP"
+,		"CI_FA"
+,		"CI_FO"
+,		"CI_FS_CTRL"
+
+		]
+}, 
+{
+	"name":"CI_DISP_ICON",	"size":12,
+	"imports":[		"CI_SCR_STEP"
+
+		]
+}, 
+{
+	"name":"CI_DST_CODE",	"size":12,
+	"imports":[		"CI_ADJ_CALC_LN"
+,		"CI_ADJ_TYPE"
+,		"CI_BANK_ACCOUNT"
+,		"CI_BCHG_LINE_UP"
+,		"CI_BCHG_UP_OVRD"
+,		"CI_BCHG_UP_XTYP"
+,		"CI_BF_CHAR_DST"
+,		"CI_BSEG_CALC_LN"
+,		"CI_B_CHG_LINE"
+,		"CI_B_TMPLT_LINE"
+,		"CI_DST_CODE"
+,		"CI_DST_CODE_EFF"
+,		"CI_FT_GL"
+,		"CI_FUND"
+,		"CI_FUND"
+,		"CI_RC"
+,		"CI_RC_GL_DST"
+,		"CI_SA_TYPE"
+,		"CI_SA_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_DST_CODE_EFF",	"size":12,
+	"imports":[		"CI_DST_CD_CHAR"
+,		"CI_DST_CD_CHAR"
+,		"CI_DST_CD_CHAR"
+,		"CI_DST_CD_CHAR"
+
+		]
+}, 
+{
+	"name":"CI_DST_RULE",	"size":12,
+	"imports":[		"CI_DST_RULE_ALG"
+,		"CI_PEVT_DST_DTL"
+,		"CI_PEVT_DTL_ST"
+
+		]
+}, 
+{
+	"name":"CI_DV_TEST",	"size":12,
+	"imports":[		"CI_DV_TEST_CHAR"
+,		"CI_DV_TEST_COMP"
+,		"CI_DV_TEST_EXCP"
+,		"CI_FA_STEP"
+
+		]
+}, 
+{
+	"name":"CI_DV_TEST_COMP",	"size":12,
+	"imports":[		"CI_DV_TEST_RES"
+,		"CI_DV_TEST_RES"
+,		"CI_DV_TEST_RES"
+,		"CI_DV_TEST_RES"
+
+		]
+}, 
+{
+	"name":"CI_DV_TEST_SEL",	"size":12,
+	"imports":[		"CI_FA"
+
+		]
+}, 
+{
+	"name":"CI_DV_TEST_TYPE",	"size":12,
+	"imports":[		"CI_CHTY_DV_TTYP"
+,		"CI_DV_TEST"
+,		"CI_DV_TTYP_CHAR"
+,		"CI_DV_TTYP_COMP"
+,		"CI_DV_TTYP_ITEM"
+,		"CI_DV_TTYP_MTR"
+
+		]
+}, 
+{
+	"name":"CI_ENRL",	"size":12,
+	"imports":[		"CI_ENRL_ADDR"
+,		"CI_ENRL_FLD"
+,		"CI_ENRL_LOG"
+,		"CI_ENRL_PER_ID"
+,		"CI_ENRL_PER_NM"
+,		"CI_ENRL_PER_PHN"
+,		"CI_SA"
+
+		]
+}, 
+{
+	"name":"CI_ENRL_CAN_RSN",	"size":12,
+	"imports":[		"CI_ENRL"
+
+		]
+}, 
+{
+	"name":"CI_ENRL_CBK_RSN",	"size":12,
+	"imports":[		"CI_ENRL"
+
+		]
+}, 
+{
+	"name":"CI_ENV_REF",	"size":12,
+	"imports":[		"CI_ARC_ROOT_OBJ"
+,		"CI_ROOT_OBJ"
+
+		]
+}, 
+{
+	"name":"CI_FA",	"size":12,
+	"imports":[		"CI_FA_CHAR"
+,		"CI_FA_LOG"
+,		"CI_FA_REM"
+,		"CI_FA_STAGE_UP"
+,		"CI_FA_STEP"
+,		"CI_FA_STEP"
+,		"CI_SA_SP_FA"
+,		"CI_SEV_EVT_FA"
+
+		]
+}, 
+{
+	"name":"CI_FAC_LVL_1",	"size":12,
+	"imports":[		"CI_FAC_LVL_1_2"
+,		"CI_FAC_LVL_1_2"
+,		"CI_FAC_LVL_1_2"
+,		"CI_FAC_LVL_1_2"
+
+		]
+}, 
+{
+	"name":"CI_FAC_LVL_2",	"size":12,
+	"imports":[		"CI_FAC_LVL_1_2"
+,		"CI_FAC_LVL_1_2"
+,		"CI_FAC_LVL_1_2"
+,		"CI_FAC_LVL_1_2"
+,		"CI_FAC_LVL_2_3"
+,		"CI_FAC_LVL_2_3"
+,		"CI_FAC_LVL_2_3"
+,		"CI_FAC_LVL_2_3"
+
+		]
+}, 
+{
+	"name":"CI_FAC_LVL_3",	"size":12,
+	"imports":[		"CI_FAC_LVL_2_3"
+,		"CI_FAC_LVL_2_3"
+,		"CI_FAC_LVL_2_3"
+,		"CI_FAC_LVL_2_3"
+
+		]
+}, 
+{
+	"name":"CI_FA_CAN_RSN",	"size":12,
+	"imports":[		"CI_FA"
+,		"CI_FO"
+
+		]
+}, 
+{
+	"name":"CI_FA_REM",	"size":12,
+	"imports":[		"CI_FA_REM_EXC"
+,		"CI_FA_REM_EXC"
+,		"CI_FA_REM_EXC"
+,		"CI_FA_REM_EXC"
+
+		]
+}, 
+{
+	"name":"CI_FA_REM_CD",	"size":12,
+	"imports":[		"CI_FA_REM"
+,		"CI_FA_REM_ALG"
+,		"CI_FA_STGUP_REM"
+
+		]
+}, 
+{
+	"name":"CI_FA_REM_EXC",	"size":12,
+	"imports":[		"CI_FA_REM_EXP"
+,		"CI_FA_REM_EXP"
+,		"CI_FA_REM_EXP"
+,		"CI_FA_REM_EXP"
+
+		]
+}, 
+{
+	"name":"CI_FA_RESCHED_RSN",	"size":12,
+	"imports":[		"CI_FA"
+,		"CI_FO"
+
+		]
+}, 
+{
+	"name":"CI_FA_STAGE_UP",	"size":12,
+	"imports":[		"CI_FA_STGUP_CHAR"
+,		"CI_FA_STGUP_REM"
+,		"CI_FA_STP_STGUP"
+
+		]
+}, 
+{
+	"name":"CI_FA_STP_STGUP",	"size":12,
+	"imports":[		"CI_FA_STGUP_EXC"
+,		"CI_FA_STGUP_EXC"
+,		"CI_FA_STGUP_EXC"
+,		"CI_FA_STGUP_EXC"
+
+		]
+}, 
+{
+	"name":"CI_FA_TYPE",	"size":12,
+	"imports":[		"CI_CHTY_FATY"
+,		"CI_DV_TEST_SEL"
+,		"CI_FA"
+,		"CI_FAPR_FATY"
+,		"CI_FAPR_TMPL"
+,		"CI_FA_CMPL_CTRL"
+,		"CI_FA_STEP_TYPE"
+,		"CI_FA_TYPE_CHAR"
+,		"CI_FS_CTRL"
+
+		]
+}, 
+{
+	"name":"CI_FA_TYPE_PROF",	"size":12,
+	"imports":[		"CI_FAPR_FATY"
+,		"CI_FAPR_TMPL"
+,		"CI_SP_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_FK_REF",	"size":12,
+	"imports":[		"CI_CHAR_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_FO",	"size":12,
+	"imports":[		"CI_FA"
+,		"CI_FO_STG_DWN"
+
+		]
+}, 
+{
+	"name":"CI_FREQ",	"size":12,
+	"imports":[		"CI_RS"
+,		"CI_SA_TYPE"
+,		"CI_SA_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_FS_CL",	"size":12,
+	"imports":[		"CI_FA_TYPE"
+,		"CI_FS_CL_DFLT"
+,		"CI_FS_OP_AREA"
+,		"CI_SP_OP_AREA"
+
+		]
+}, 
+{
+	"name":"CI_FS_CTRL",	"size":12,
+	"imports":[		"CI_FS_DGRP"
+,		"CI_FS_DGRP"
+,		"CI_FS_DGRP"
+,		"CI_FS_DGRP"
+,		"CI_FS_DGRP"
+,		"CI_FS_DGRP"
+,		"CI_FS_DGRP"
+,		"CI_FS_DGRP"
+,		"CI_FS_DGRP"
+
+		]
+}, 
+{
+	"name":"CI_FT",	"size":12,
+	"imports":[		"CI_FT_GL"
+,		"CI_FT_PROC"
+,		"CI_SC_EVT_FT"
+
+		]
+}, 
+{
+	"name":"CI_FUNC",	"size":12,
+	"imports":[		"CI_FUNC_FLD"
+,		"CI_SCR_STEP"
+
+		]
+}, 
+{
+	"name":"CI_FUNC_FLD",	"size":12,
+	"imports":[		"CI_SCR_FLD_MAP"
+,		"CI_SCR_FLD_MAP"
+,		"CI_SCR_FLD_MAP"
+,		"CI_SCR_FLD_MAP"
+
+		]
+}, 
+{
+	"name":"CI_FUND",	"size":12,
+	"imports":[		"CI_DST_CODE_EFF"
+
+		]
+}, 
+{
+	"name":"CI_GL_DIVISION",	"size":12,
+	"imports":[		"CI_FT"
+,		"CI_SA_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_ID_TYPE",	"size":12,
+	"imports":[		"CI_ENRL_PER_ID"
+,		"CI_PER_ID"
+
+		]
+}, 
+{
+	"name":"CI_INTV_DATA_SET",	"size":12,
+	"imports":[		"CI_INTV_DATA"
+,		"CI_INTV_DS_EXC"
+
+		]
+}, 
+{
+	"name":"CI_INTV_PF",	"size":12,
+	"imports":[		"CI_INTV_DATA_SET"
+,		"CI_SA_INTV_PF"
+,		"CI_SS_OPT_IP"
+
+		]
+}, 
+{
+	"name":"CI_INTV_PFRELTY",	"size":12,
+	"imports":[		"CI_PFRELTY_PFTY"
+,		"CI_RC"
+,		"CI_SAT_PFRELTY"
+,		"CI_SA_INTV_PF"
+,		"CI_SS_OPT_IP"
+
+		]
+}, 
+{
+	"name":"CI_INTV_PF_TYP",	"size":12,
+	"imports":[		"CI_INTV_PF"
+,		"CI_INTV_PF_ALG"
+,		"CI_PFRELTY_PFTY"
+,		"CI_SS_OPT_IP"
+
+		]
+}, 
+{
+	"name":"CI_INTV_REG_TYP",	"size":12,
+	"imports":[		"CI_INTV_REG_ALG"
+,		"CI_MTR_CFGTY_RL"
+,		"CI_REG"
+
+		]
+}, 
+{
+	"name":"CI_INTV_VAL_SET",	"size":12,
+	"imports":[		"CI_INTV_VAL"
+
+		]
+}, 
+{
+	"name":"CI_ITEM",	"size":12,
+	"imports":[		"CI_BSEG_ITEM"
+,		"CI_DV_TEST"
+,		"CI_FA_STEP"
+,		"CI_ITEM_CHAR"
+,		"CI_ITEM_EQ"
+,		"CI_ITEM_EQ"
+,		"CI_ITEM_LOC_HIS"
+,		"CI_ITEM_STK_LOC"
+,		"CI_MTR_EQ"
+,		"CI_SP_EQ"
+,		"CI_SP_ITEM_HIST"
+
+		]
+}, 
+{
+	"name":"CI_ITEM_TYPE",	"size":12,
+	"imports":[		"CI_CHTY_ITTY"
+,		"CI_DV_TTYP_ITEM"
+,		"CI_ITEM"
+,		"CI_ITEM_SQ_EST"
+,		"CI_ITEM_TYPE_EQ"
+,		"CI_ITEM_TYPE_EQ"
+,		"CI_ITEM_TYP_CHA"
+,		"CI_MTR_TYPE_EQ"
+,		"CI_MULT_ITEM"
+,		"CI_RC"
+,		"CI_SPTY_ITEMTY"
+,		"CI_SP_TYPE_EQ"
+
+		]
+}, 
+{
+	"name":"CI_LANDLORD",	"size":12,
+	"imports":[		"CI_LL_DETAIL"
+,		"CI_PREM"
+
+		]
+}, 
+{
+	"name":"CI_LANGUAGE",	"size":12,
+	"imports":[		"CI_BATCH_CTRL"
+,		"CI_BATCH_JOB"
+,		"CI_MD_PDF_VAL"
+
+		]
+}, 
+{
+	"name":"CI_LETTER_TMPL",	"size":12,
+	"imports":[		"CI_CC"
+,		"CI_CC_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_LOOKUP_FIELD",	"size":12,
+	"imports":[		"CI_LOOKUP_VAL"
+
+		]
+}, 
+{
+	"name":"CI_MATCH_EVT",	"size":12,
+	"imports":[		"CI_FT"
+,		"CI_PAY_SEG"
+
+		]
+}, 
+{
+	"name":"CI_MATCH_TYPE",	"size":12,
+	"imports":[		"CI_PAY"
+,		"CI_PAY_ST"
+,		"CI_PEVT_DTL_ST"
+
+		]
+}, 
+{
+	"name":"CI_MEVT_CAN_RSN",	"size":12,
+	"imports":[		"CI_MATCH_EVT"
+
+		]
+}, 
+{
+	"name":"CI_MFG",	"size":12,
+	"imports":[		"CI_MODEL"
+
+		]
+}, 
+{
+	"name":"CI_MKTMSG_TYPE",	"size":12,
+	"imports":[		"CI_MKTMSG_TYPE_ALG"
+,		"CI_MKTMSG_TYPE_CHAR"
+
+		]
+}, 
+{
+	"name":"CI_MODEL",	"size":12,
+	"imports":[		"CI_ITEM"
+,		"CI_ITEM"
+,		"CI_ITEM"
+,		"CI_ITEM"
+,		"CI_MTR"
+,		"CI_MTR"
+,		"CI_MTR"
+,		"CI_MTR"
+
+		]
+}, 
+{
+	"name":"CI_MR",	"size":12,
+	"imports":[		"CI_FA_STEP"
+,		"CI_MR_CHAR"
+,		"CI_MR_REM"
+,		"CI_MR_STAGE_UP"
+,		"CI_REG_READ"
+,		"CI_SA_SP"
+,		"CI_SA_SP"
+,		"CI_SP_MTR_EVT"
+,		"CI_SP_MTR_HIST"
+
+		]
+}, 
+{
+	"name":"CI_MR_CYC",	"size":12,
+	"imports":[		"CI_MR_RTE"
+,		"CI_MR_SCHED"
+,		"CI_SA_REL"
+,		"CI_SP"
+
+		]
+}, 
+{
+	"name":"CI_MR_INSTR",	"size":12,
+	"imports":[		"CI_PREM"
+
+		]
+}, 
+{
+	"name":"CI_MR_REM",	"size":12,
+	"imports":[		"CI_MR_REM_EXCP"
+,		"CI_MR_REM_EXCP"
+,		"CI_MR_REM_EXCP"
+,		"CI_MR_REM_EXCP"
+
+		]
+}, 
+{
+	"name":"CI_MR_RTE",	"size":12,
+	"imports":[		"CI_MR_RTE_CHAR"
+,		"CI_MR_RTE_CHAR"
+,		"CI_MR_RTE_CHAR"
+,		"CI_MR_RTE_CHAR"
+,		"CI_MR_SCHED_RTE"
+,		"CI_MR_SCHED_RTE"
+,		"CI_MR_SCHED_RTE"
+,		"CI_MR_SCHED_RTE"
+,		"CI_SP"
+,		"CI_SP"
+,		"CI_SP"
+,		"CI_SP"
+,		"CI_SP_RTE"
+,		"CI_SP_RTE"
+,		"CI_SP_RTE"
+,		"CI_SP_RTE"
+
+		]
+}, 
+{
+	"name":"CI_MR_RTE_TYPE",	"size":12,
+	"imports":[		"CI_MR_RTE"
+
+		]
+}, 
+{
+	"name":"CI_MR_SCHED",	"size":12,
+	"imports":[		"CI_MR_SCHED_RTE"
+,		"CI_MR_SCHED_RTE"
+,		"CI_MR_SCHED_RTE"
+,		"CI_MR_SCHED_RTE"
+
+		]
+}, 
+{
+	"name":"CI_MR_SCHED_RTE",	"size":12,
+	"imports":[		"CI_MR_STAGE_DWN"
+,		"CI_MR_STAGE_DWN"
+,		"CI_MR_STAGE_DWN"
+,		"CI_MR_STAGE_DWN"
+,		"CI_MR_STAGE_DWN"
+,		"CI_MR_STAGE_DWN"
+,		"CI_MR_STAGE_DWN"
+,		"CI_MR_STAGE_DWN"
+,		"CI_MR_STAGE_DWN"
+,		"CI_SVC_RTE_STG_DWN"
+,		"CI_SVC_RTE_STG_DWN"
+,		"CI_SVC_RTE_STG_DWN"
+,		"CI_SVC_RTE_STG_DWN"
+,		"CI_SVC_RTE_STG_DWN"
+,		"CI_SVC_RTE_STG_DWN"
+,		"CI_SVC_RTE_STG_DWN"
+,		"CI_SVC_RTE_STG_DWN"
+,		"CI_SVC_RTE_STG_DWN"
+
+		]
+}, 
+{
+	"name":"CI_MR_SOURCE",	"size":12,
+	"imports":[		"CI_MR"
+,		"CI_MR_STAGE_UP"
+
+		]
+}, 
+{
+	"name":"CI_MR_STAGE_UP",	"size":12,
+	"imports":[		"CI_MRR_STGE_UP"
+,		"CI_MR_STGUP_CHAR"
+,		"CI_MR_STGUP_EXC"
+,		"CI_RR_STAGE_UP"
+
+		]
+}, 
+{
+	"name":"CI_MR_WARN",	"size":12,
+	"imports":[		"CI_PREM"
+
+		]
+}, 
+{
+	"name":"CI_MSG",	"size":12,
+	"imports":[		"CI_MSG_LOG"
+,		"CI_MSG_LOG"
+,		"CI_MSG_LOG"
+,		"CI_MSG_LOG"
+,		"CI_NT_DWN_EXC"
+,		"CI_NT_DWN_EXC"
+,		"CI_NT_DWN_EXC"
+,		"CI_NT_DWN_EXC"
+,		"CI_NT_UP_EXCP"
+,		"CI_NT_UP_EXCP"
+,		"CI_NT_UP_EXCP"
+,		"CI_NT_UP_EXCP"
+,		"CI_ROOT_OBJ_EXC"
+,		"CI_ROOT_OBJ_EXC"
+,		"CI_ROOT_OBJ_EXC"
+,		"CI_ROOT_OBJ_EXC"
+,		"CI_TD_ENTRY"
+,		"CI_TD_ENTRY"
+,		"CI_TD_ENTRY"
+,		"CI_TD_ENTRY"
+,		"CI_TD_EX_LIST"
+,		"CI_TD_EX_LIST"
+,		"CI_TD_EX_LIST"
+,		"CI_TD_EX_LIST"
+,		"CI_TD_TYPE"
+,		"CI_TD_TYPE"
+,		"CI_TD_TYPE"
+,		"CI_TD_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_MSG_CATEGORY",	"size":12,
+	"imports":[		"CI_MSG"
+
+		]
+}, 
+{
+	"name":"CI_MSG_LOG",	"size":12,
+	"imports":[		"CI_MSG_LOGPARM"
+,		"CI_MSG_LOGPARM"
+,		"CI_MSG_LOGPARM"
+,		"CI_MSG_LOGPARM"
+,		"CI_MSG_LOG_PK"
+,		"CI_MSG_LOG_PK"
+,		"CI_MSG_LOG_PK"
+,		"CI_MSG_LOG_PK"
+
+		]
+}, 
+{
+	"name":"CI_MTR",	"size":12,
+	"imports":[		"CI_DV_TEST"
+,		"CI_FA_STEP"
+,		"CI_FA_STEP"
+,		"CI_MTR_CHAR"
+,		"CI_MTR_CONFIG"
+,		"CI_MTR_EQ"
+,		"CI_MTR_ID"
+,		"CI_MTR_LOC_HIS"
+,		"CI_MTR_STK_LOC"
+
+		]
+}, 
+{
+	"name":"CI_MTR_CONFIG",	"size":12,
+	"imports":[		"CI_MR"
+,		"CI_MR_STAGE_UP"
+,		"CI_REG"
+,		"CI_REG"
+,		"CI_REG"
+,		"CI_REG"
+,		"CI_SP_MTR_HIST"
+
+		]
+}, 
+{
+	"name":"CI_MTR_CONFIG_TY",	"size":12,
+	"imports":[		"CI_MTR_CFGTY_RL"
+,		"CI_MTR_CONFIG"
+,		"CI_MTR_TY_CFGTY"
+,		"CI_RS_MTR_CFGTY"
+
+		]
+}, 
+{
+	"name":"CI_MTR_ID_TYPE",	"size":12,
+	"imports":[		"CI_MR_STAGE_UP"
+,		"CI_MTR_ID"
+
+		]
+}, 
+{
+	"name":"CI_MTR_LOC",	"size":12,
+	"imports":[		"CI_SP"
+
+		]
+}, 
+{
+	"name":"CI_MTR_TYPE",	"size":12,
+	"imports":[		"CI_CHTY_MTTY"
+,		"CI_DV_TTYP_MTR"
+,		"CI_MTR"
+,		"CI_MTR_TYPE_EQ"
+,		"CI_MTR_TYP_CHAR"
+,		"CI_MTR_TY_CFGTY"
+,		"CI_SPTY_MTRTY"
+
+		]
+}, 
+{
+	"name":"CI_NAV_OPT",	"size":12,
+	"imports":[		"CI_FK_REF"
+,		"CI_MD_MENU_ITEM"
+,		"CI_NAV_OPT_CTXT"
+,		"CI_NAV_OPT_USG"
+,		"CI_NT_UP_XTYPE"
+,		"CI_SCR_STEP"
+,		"CI_TD_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_NB_RULE",	"size":12,
+	"imports":[		"CI_NB_RULE_VER"
+,		"CI_SAT_NB_RULE"
+
+		]
+}, 
+{
+	"name":"CI_NB_RULE_VER",	"size":12,
+	"imports":[		"CI_NB_RULE_PARM"
+,		"CI_NB_RULE_PARM"
+,		"CI_NB_RULE_PARM"
+,		"CI_NB_RULE_PARM"
+
+		]
+}, 
+{
+	"name":"CI_NCD_TYPE",	"size":12,
+	"imports":[		"CI_NCD"
+
+		]
+}, 
+{
+	"name":"CI_NT_DWN",	"size":12,
+	"imports":[		"CI_NT_DWN_CHAR"
+,		"CI_NT_DWN_CTXT"
+,		"CI_NT_DWN_EXC"
+
+		]
+}, 
+{
+	"name":"CI_NT_DWN_EXC",	"size":12,
+	"imports":[		"CI_NT_DWN_EXP"
+
+		]
+}, 
+{
+	"name":"CI_NT_DWN_PROF",	"size":12,
+	"imports":[		"CI_NT_DWN_FORM"
+,		"CI_NT_XID"
+
+		]
+}, 
+{
+	"name":"CI_NT_DWN_TYPE",	"size":12,
+	"imports":[		"CI_NT_DNTY_CTXT"
+,		"CI_NT_DWN"
+,		"CI_NT_DWN_FORM"
+
+		]
+}, 
+{
+	"name":"CI_NT_UP",	"size":12,
+	"imports":[		"CI_NT_UP_CHAR"
+,		"CI_NT_UP_CTXT"
+,		"CI_NT_UP_EXCP"
+
+		]
+}, 
+{
+	"name":"CI_NT_UP_XTYPE",	"size":12,
+	"imports":[		"CI_NT_UP"
+
+		]
+}, 
+{
+	"name":"CI_NT_XID",	"size":12,
+	"imports":[		"CI_NT_DWN"
+,		"CI_NT_UP"
+,		"CI_NT_XID"
+
+		]
+}, 
+{
+	"name":"CI_OD_EVT",	"size":12,
+	"imports":[		"CI_CUT_PROC"
+,		"CI_CUT_PROC"
+,		"CI_CUT_PROC"
+,		"CI_CUT_PROC"
+,		"CI_OD_EVT_DEP"
+,		"CI_OD_EVT_DEP"
+,		"CI_OD_EVT_DEP"
+,		"CI_OD_EVT_DEP"
+,		"CI_OD_PROC_LOG"
+,		"CI_OD_PROC_LOG"
+,		"CI_OD_PROC_LOG"
+,		"CI_OD_PROC_LOG"
+
+		]
+}, 
+{
+	"name":"CI_OD_EVT_TYPE",	"size":12,
+	"imports":[		"CI_OD_EVT"
+,		"CI_OD_EVT_TYPE_ALG"
+,		"CI_OD_RESP"
+
+		]
+}, 
+{
+	"name":"CI_OD_PROC",	"size":12,
+	"imports":[		"CI_OD_EVT"
+,		"CI_OD_PROC_LOG"
+,		"CI_OD_PROC_OBJ"
+
+		]
+}, 
+{
+	"name":"CI_OD_PROC_LOG",	"size":12,
+	"imports":[		"CI_OD_PROC_LOGPARM"
+,		"CI_OD_PROC_LOGPARM"
+,		"CI_OD_PROC_LOGPARM"
+,		"CI_OD_PROC_LOGPARM"
+
+		]
+}, 
+{
+	"name":"CI_OD_PROC_TMP",	"size":12,
+	"imports":[		"CI_OD_PROC"
+,		"CI_OD_PROC_TMP_ALG"
+,		"CI_OD_RESP"
+
+		]
+}, 
+{
+	"name":"CI_OD_RESP",	"size":12,
+	"imports":[		"CI_OD_RESP_DEP"
+,		"CI_OD_RESP_DEP"
+,		"CI_OD_RESP_DEP"
+,		"CI_OD_RESP_DEP"
+
+		]
+}, 
+{
+	"name":"CI_OEVT_CAN_RSN",	"size":12,
+	"imports":[		"CI_OD_EVT"
+
+		]
+}, 
+{
+	"name":"CI_OP_AREA",	"size":12,
+	"imports":[		"CI_FS_CL_DFLT"
+,		"CI_FS_CTRL"
+,		"CI_FS_OP_AREA"
+,		"CI_SP_OP_AREA"
+
+		]
+}, 
+{
+	"name":"CI_PAY",	"size":12,
+	"imports":[		"CI_FT"
+,		"CI_MATCH_EVT"
+,		"CI_PAY_CHAR"
+,		"CI_PAY_EXCP"
+,		"CI_PAY_SEG"
+
+		]
+}, 
+{
+	"name":"CI_PAY_CAN_RSN",	"size":12,
+	"imports":[		"CI_PAY"
+,		"CI_PAY_TNDR"
+
+		]
+}, 
+{
+	"name":"CI_PAY_EVENT",	"size":12,
+	"imports":[		"CI_PAY"
+,		"CI_PAY_EVT_CHAR"
+,		"CI_PAY_EVT_EXCP"
+,		"CI_PAY_TNDR"
+,		"CI_PEVT_DST_DTL"
+,		"CI_PEVT_DTL_ST"
+
+		]
+}, 
+{
+	"name":"CI_PAY_METH",	"size":12,
+	"imports":[		"CI_PP"
+
+		]
+}, 
+{
+	"name":"CI_PAY_SEG",	"size":12,
+	"imports":[		"CI_FT"
+
+		]
+}, 
+{
+	"name":"CI_PAY_SEG_TYPE",	"size":12,
+	"imports":[		"CI_SA_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_PAY_TNDR",	"size":12,
+	"imports":[		"CI_APAY_CLR_STG"
+,		"CI_PAY_TNDR_CHAR"
+,		"CI_PAY_TNDR_ST"
+
+		]
+}, 
+{
+	"name":"CI_PAY_TNDR_ST",	"size":12,
+	"imports":[		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_ST"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_PAY_TNDR_ST_CHAR"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+,		"CI_TNDR_ST_EXCP"
+
+		]
+}, 
+{
+	"name":"CI_PER",	"size":12,
+	"imports":[		"CI_ACCT_PER"
+,		"CI_BILL_ROUTING"
+,		"CI_CASE"
+,		"CI_CASE"
+,		"CI_CC"
+,		"CI_COLL_AGY"
+,		"CI_ENRL"
+,		"CI_PER_ADDR_SEAS"
+,		"CI_PER_CHAR"
+,		"CI_PER_ID"
+,		"CI_PER_NAME"
+,		"CI_PER_PER"
+,		"CI_PER_PER"
+,		"CI_PER_PHONE"
+,		"CI_QUOTE_RTG"
+,		"CI_REBATE_CLAIM"
+,		"CI_SPR"
+,		"CI_STM_CNST"
+
+		]
+}, 
+{
+	"name":"CI_PER_REL_TYPE",	"size":12,
+	"imports":[		"CI_PER_PER"
+
+		]
+}, 
+{
+	"name":"CI_PKG",	"size":12,
+	"imports":[		"CI_ENRL"
+,		"CI_PKG_CRT_GRP"
+,		"CI_PKG_FLD_OVRD"
+,		"CI_PKG_INSTR"
+,		"CI_PKG_SA_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_PKG_CRT_GRP",	"size":12,
+	"imports":[		"CI_PKG_CRT"
+,		"CI_PKG_CRT"
+,		"CI_PKG_CRT"
+,		"CI_PKG_CRT"
+
+		]
+}, 
+{
+	"name":"CI_PORTAL",	"size":12,
+	"imports":[		"CI_PORTAL_ZONE"
+
+		]
+}, 
+{
+	"name":"CI_POST_DFLT",	"size":12,
+	"imports":[		"CI_CHAR_DFLT"
+,		"CI_CHAR_DFLT"
+,		"CI_CHAR_DFLT"
+,		"CI_CHAR_DFLT"
+,		"CI_GEO_TYP_DFLT"
+,		"CI_GEO_TYP_DFLT"
+,		"CI_GEO_TYP_DFLT"
+,		"CI_GEO_TYP_DFLT"
+,		"CI_SVC_TYP_DFLT"
+,		"CI_SVC_TYP_DFLT"
+,		"CI_SVC_TYP_DFLT"
+,		"CI_SVC_TYP_DFLT"
+
+		]
+}, 
+{
+	"name":"CI_PP",	"size":12,
+	"imports":[		"CI_CR_RAT_HIST"
+,		"CI_PP_SCHED_PAY"
+
+		]
+}, 
+{
+	"name":"CI_PP_TYPE",	"size":12,
+	"imports":[		"CI_PP"
+
+		]
+}, 
+{
+	"name":"CI_PREM",	"size":12,
+	"imports":[		"CI_ACCT"
+,		"CI_BSEG"
+,		"CI_CASE"
+,		"CI_DCL"
+,		"CI_ENRL"
+,		"CI_FO"
+,		"CI_PREM"
+,		"CI_PREM_CHAR"
+,		"CI_PREM_GEO"
+,		"CI_PRM_ALT_ADDR"
+,		"CI_REBATE_CLAIM"
+,		"CI_SA"
+,		"CI_SP"
+,		"CI_STM_CNST"
+
+		]
+}, 
+{
+	"name":"CI_PREM_TYPE",	"size":12,
+	"imports":[		"CI_CAMPAIGN"
+,		"CI_ENRL"
+,		"CI_PREM"
+
+		]
+}, 
+{
+	"name":"CI_PROP_DCL_RSN",	"size":12,
+	"imports":[		"CI_SA"
+
+		]
+}, 
+{
+	"name":"CI_PROTOCOL",	"size":12,
+	"imports":[		"CI_REG"
+
+		]
+}, 
+{
+	"name":"CI_QTE_RTE_TYPE",	"size":12,
+	"imports":[		"CI_ACCT_PER"
+,		"CI_QUOTE_RTG"
+
+		]
+}, 
+{
+	"name":"CI_QUOTE",	"size":12,
+	"imports":[		"CI_QUOTE_DTL"
+,		"CI_QUOTE_RTG"
+
+		]
+}, 
+{
+	"name":"CI_QUOTE_DTL",	"size":12,
+	"imports":[		"CI_BSEG"
+
+		]
+}, 
+{
+	"name":"CI_RC",	"size":12,
+	"imports":[		"CI_ADJ_CALC_LN"
+,		"CI_ADJ_CALC_LN"
+,		"CI_ADJ_CALC_LN"
+,		"CI_ADJ_CALC_LN"
+,		"CI_ADJ_CALC_LN"
+,		"CI_ADJ_CALC_LN"
+,		"CI_ADJ_CALC_LN"
+,		"CI_ADJ_CALC_LN"
+,		"CI_ADJ_CALC_LN"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC_CHAR"
+,		"CI_RC_CHAR"
+,		"CI_RC_CHAR"
+,		"CI_RC_CHAR"
+,		"CI_RC_CHAR"
+,		"CI_RC_CHAR"
+,		"CI_RC_CHAR"
+,		"CI_RC_CHAR"
+,		"CI_RC_CHAR"
+,		"CI_RC_CRT_GRP"
+,		"CI_RC_CRT_GRP"
+,		"CI_RC_CRT_GRP"
+,		"CI_RC_CRT_GRP"
+,		"CI_RC_CRT_GRP"
+,		"CI_RC_CRT_GRP"
+,		"CI_RC_CRT_GRP"
+,		"CI_RC_CRT_GRP"
+,		"CI_RC_CRT_GRP"
+,		"CI_RC_GL_DST"
+,		"CI_RC_GL_DST"
+,		"CI_RC_GL_DST"
+,		"CI_RC_GL_DST"
+,		"CI_RC_GL_DST"
+,		"CI_RC_GL_DST"
+,		"CI_RC_GL_DST"
+,		"CI_RC_GL_DST"
+,		"CI_RC_GL_DST"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+,		"CI_RC_XREF"
+
+		]
+}, 
+{
+	"name":"CI_RC_CRT_GRP",	"size":12,
+	"imports":[		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+,		"CI_RC_CRT"
+
+		]
+}, 
+{
+	"name":"CI_READER_REM",	"size":12,
+	"imports":[		"CI_MRR_STGE_UP"
+,		"CI_MR_REM"
+,		"CI_MR_REM_ACTN"
+,		"CI_MR_REM_BMSG"
+
+		]
+}, 
+{
+	"name":"CI_READ_OUT_TYP",	"size":12,
+	"imports":[		"CI_REG"
+
+		]
+}, 
+{
+	"name":"CI_REBATE_CLAIM",	"size":12,
+	"imports":[		"CI_REBATE_CLAIM_CHAR"
+,		"CI_REBATE_CLAIM_LOG"
+,		"CI_REBATE_LINE"
+
+		]
+}, 
+{
+	"name":"CI_REBATE_CLAIM_LOG",	"size":12,
+	"imports":[		"CI_REBATE_CLAIM_LOG_PARM"
+,		"CI_REBATE_CLAIM_LOG_PARM"
+,		"CI_REBATE_CLAIM_LOG_PARM"
+,		"CI_REBATE_CLAIM_LOG_PARM"
+
+		]
+}, 
+{
+	"name":"CI_REBATE_DEFN",	"size":12,
+	"imports":[		"CI_REBATE_LINE"
+,		"CI_REBATE_LINE"
+,		"CI_REBATE_LINE"
+,		"CI_REBATE_LINE"
+
+		]
+}, 
+{
+	"name":"CI_REBATE_LINE",	"size":12,
+	"imports":[		"CI_REBATE_LINE_CHAR"
+,		"CI_REBATE_LINE_CHAR"
+,		"CI_REBATE_LINE_CHAR"
+,		"CI_REBATE_LINE_CHAR"
+
+		]
+}, 
+{
+	"name":"CI_REG",	"size":12,
+	"imports":[		"CI_DV_TEST_COMP"
+,		"CI_REG_CHAR"
+,		"CI_REG_DATA_SET"
+,		"CI_REG_READ"
+
+		]
+}, 
+{
+	"name":"CI_REG_DATA_SET",	"size":12,
+	"imports":[		"CI_REG_DATA"
+,		"CI_REG_DS_EXC"
+
+		]
+}, 
+{
+	"name":"CI_REG_DS_EXC",	"size":12,
+	"imports":[		"CI_REG_DS_EXP"
+
+		]
+}, 
+{
+	"name":"CI_REG_READ",	"size":12,
+	"imports":[		"CI_BCHG_READ"
+,		"CI_BCHG_READ"
+,		"CI_BCHG_UP_READ"
+,		"CI_BCHG_UP_READ"
+,		"CI_BSEG_READ"
+,		"CI_BSEG_READ"
+,		"CI_DV_TEST_RES"
+
+		]
+}, 
+{
+	"name":"CI_REG_RULE",	"size":12,
+	"imports":[		"CI_RS_REG_RULE"
+
+		]
+}, 
+{
+	"name":"CI_REP",	"size":12,
+	"imports":[		"CI_DISP_GRP_REP"
+,		"CI_FA_STAGE_UP"
+,		"CI_FO"
+,		"CI_FO"
+
+		]
+}, 
+{
+	"name":"CI_REPL_CNTL",	"size":12,
+	"imports":[		"CI_REPL_ACCT"
+
+		]
+}, 
+{
+	"name":"CI_RETIRE_RSN",	"size":12,
+	"imports":[		"CI_ITEM"
+,		"CI_MTR"
+
+		]
+}, 
+{
+	"name":"CI_REV_CL",	"size":12,
+	"imports":[		"CI_BF_CHAR_DST"
+,		"CI_RC_GL_DST"
+,		"CI_SA_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_ROLE",	"size":12,
+	"imports":[		"CI_ROLE_USER"
+,		"CI_TD_ENTRY"
+,		"CI_TD_EX_LIST"
+,		"CI_TD_VAL_ROLE"
+
+		]
+}, 
+{
+	"name":"CI_ROOT_OBJ",	"size":12,
+	"imports":[		"CI_ROOT_DIFF"
+,		"CI_ROOT_INSTR"
+,		"CI_ROOT_INSTR"
+,		"CI_ROOT_OBJ_EXC"
+,		"CI_ROOT_OBJ_PK"
+
+		]
+}, 
+{
+	"name":"CI_ROOT_OBJ_EXC",	"size":12,
+	"imports":[		"CI_ROOT_OBJ_EXP"
+
+		]
+}, 
+{
+	"name":"CI_RS",	"size":12,
+	"imports":[		"CI_RS_BMSG"
+,		"CI_RS_MTR_CFGTY"
+,		"CI_RS_REG_RULE"
+,		"CI_RS_SQ_RULE"
+,		"CI_RS_SUB_RS"
+,		"CI_RS_SUB_RS"
+,		"CI_RV"
+,		"CI_SA_RS_HIST"
+,		"CI_SA_TYPE_RS"
+,		"CI_SS_OPT"
+
+		]
+}, 
+{
+	"name":"CI_RV",	"size":12,
+	"imports":[		"CI_BSEG_CALC"
+,		"CI_BSEG_CALC"
+,		"CI_BSEG_CALC"
+,		"CI_BSEG_CALC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+,		"CI_RC"
+
+		]
+}, 
+{
+	"name":"CI_SA",	"size":12,
+	"imports":[		"CI_ADJ"
+,		"CI_ADJ"
+,		"CI_ADJ_STG_UP"
+,		"CI_BCHG_UP"
+,		"CI_BILL_CHG"
+,		"CI_BILL_SA"
+,		"CI_BILL_SCNR"
+,		"CI_BPRT_SGRP_SA"
+,		"CI_BSEG"
+,		"CI_COLL_PROC_SA"
+,		"CI_COP"
+,		"CI_CUT_PROC"
+,		"CI_FT"
+,		"CI_INTV_PF"
+,		"CI_NB_SA"
+,		"CI_NB_SA"
+,		"CI_NB_SCHED_PAY"
+,		"CI_NCD"
+,		"CI_PAY_SEG"
+,		"CI_QUOTE_DTL"
+,		"CI_SA"
+,		"CI_SA_CHAR"
+,		"CI_SA_CONTERM"
+,		"CI_SA_CONT_QTY"
+,		"CI_SA_COP"
+,		"CI_SA_INTV_PF"
+,		"CI_SA_MSG"
+,		"CI_SA_NB_PARM"
+,		"CI_SA_RCHG_HIST"
+,		"CI_SA_REL"
+,		"CI_SA_RS_HIST"
+,		"CI_SA_SP"
+,		"CI_SA_SP_FA"
+,		"CI_SA_TC"
+,		"CI_SA_TOU_MAP"
+,		"CI_SCM"
+,		"CI_SEV_PROC"
+,		"CI_SPR"
+,		"CI_STM_CNST_DTL"
+,		"CI_TNDR_SRCE"
+,		"CI_TOS"
+,		"CI_TOS_SA"
+,		"CI_TOU_MAP"
+
+		]
+}, 
+{
+	"name":"CI_SATY_SARELTY",	"size":12,
+	"imports":[		"CI_SPR_VALID"
+,		"CI_SPR_VALID"
+,		"CI_SPR_VALID"
+,		"CI_SPR_VALID"
+,		"CI_SPR_VALID"
+,		"CI_SPR_VALID"
+,		"CI_SPR_VALID"
+,		"CI_SPR_VALID"
+,		"CI_SPR_VALID"
+
+		]
+}, 
+{
+	"name":"CI_SAT_NB_RULE",	"size":12,
+	"imports":[		"CI_SA"
+,		"CI_SA"
+,		"CI_SA"
+,		"CI_SA"
+,		"CI_SA"
+,		"CI_SA"
+,		"CI_SA"
+,		"CI_SA"
+,		"CI_SA"
+
+		]
+}, 
+{
+	"name":"CI_SA_CONTERM",	"size":12,
+	"imports":[		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_CONT_VAL"
+
+		]
+}, 
+{
+	"name":"CI_SA_COP",	"size":12,
+	"imports":[		"CI_SA_COP_OVRD"
+
+		]
+}, 
+{
+	"name":"CI_SA_REL",	"size":12,
+	"imports":[		"CI_SA"
+
+		]
+}, 
+{
+	"name":"CI_SA_REL_TYPE",	"size":12,
+	"imports":[		"CI_SATY_SARELTY"
+,		"CI_SA_REL"
+,		"CI_SPR_SARELTY"
+
+		]
+}, 
+{
+	"name":"CI_SA_SP",	"size":12,
+	"imports":[		"CI_SA_SP_CHAR"
+,		"CI_SA_SP_FA"
+
+		]
+}, 
+{
+	"name":"CI_SA_TYPE",	"size":12,
+	"imports":[		"CI_BAL_CTL_MEM"
+,		"CI_BAL_CTL_MEM"
+,		"CI_BAL_CTL_MEM"
+,		"CI_BAL_CTL_MEM"
+,		"CI_BAL_CTL_TMP"
+,		"CI_BAL_CTL_TMP"
+,		"CI_BAL_CTL_TMP"
+,		"CI_BAL_CTL_TMP"
+,		"CI_BCHG_UP_OVRD"
+,		"CI_BCHG_UP_OVRD"
+,		"CI_BCHG_UP_OVRD"
+,		"CI_BCHG_UP_OVRD"
+,		"CI_DST_CODE"
+,		"CI_DST_CODE"
+,		"CI_DST_CODE"
+,		"CI_DST_CODE"
+,		"CI_PKG_SA_TYPE"
+,		"CI_PKG_SA_TYPE"
+,		"CI_PKG_SA_TYPE"
+,		"CI_PKG_SA_TYPE"
+,		"CI_SA"
+,		"CI_SA"
+,		"CI_SA"
+,		"CI_SA"
+,		"CI_SATY_ALG"
+,		"CI_SATY_ALG"
+,		"CI_SATY_ALG"
+,		"CI_SATY_ALG"
+,		"CI_SATY_COPTY"
+,		"CI_SATY_COPTY"
+,		"CI_SATY_COPTY"
+,		"CI_SATY_COPTY"
+,		"CI_SATY_SARELTY"
+,		"CI_SATY_SARELTY"
+,		"CI_SATY_SARELTY"
+,		"CI_SATY_SARELTY"
+,		"CI_SATY_TMAPRTY"
+,		"CI_SATY_TMAPRTY"
+,		"CI_SATY_TMAPRTY"
+,		"CI_SATY_TMAPRTY"
+,		"CI_SAT_ADJ_PROF"
+,		"CI_SAT_ADJ_PROF"
+,		"CI_SAT_ADJ_PROF"
+,		"CI_SAT_ADJ_PROF"
+,		"CI_SAT_NB_RULE"
+,		"CI_SAT_NB_RULE"
+,		"CI_SAT_NB_RULE"
+,		"CI_SAT_NB_RULE"
+,		"CI_SAT_PFRELTY"
+,		"CI_SAT_PFRELTY"
+,		"CI_SAT_PFRELTY"
+,		"CI_SAT_PFRELTY"
+,		"CI_SA_SP_TYPE"
+,		"CI_SA_SP_TYPE"
+,		"CI_SA_SP_TYPE"
+,		"CI_SA_SP_TYPE"
+,		"CI_SA_TYPE_BC"
+,		"CI_SA_TYPE_BC"
+,		"CI_SA_TYPE_BC"
+,		"CI_SA_TYPE_BC"
+,		"CI_SA_TYPE_CHAR"
+,		"CI_SA_TYPE_CHAR"
+,		"CI_SA_TYPE_CHAR"
+,		"CI_SA_TYPE_CHAR"
+,		"CI_SA_TYPE_RS"
+,		"CI_SA_TYPE_RS"
+,		"CI_SA_TYPE_RS"
+,		"CI_SA_TYPE_RS"
+,		"CI_SCMTY_SATY"
+,		"CI_SCMTY_SATY"
+,		"CI_SCMTY_SATY"
+,		"CI_SCMTY_SATY"
+,		"CI_SEV_CRIT"
+,		"CI_SEV_CRIT"
+,		"CI_SEV_CRIT"
+,		"CI_SEV_CRIT"
+,		"CI_SS_OPT"
+,		"CI_SS_OPT"
+,		"CI_SS_OPT"
+,		"CI_SS_OPT"
+
+		]
+}, 
+{
+	"name":"CI_SCM",	"size":12,
+	"imports":[		"CI_SCM_ACCT"
+,		"CI_SCM_CHAR"
+,		"CI_SC_EVT"
+
+		]
+}, 
+{
+	"name":"CI_SCMTY_SUBCAT",	"size":12,
+	"imports":[		"CI_SC_EVT"
+,		"CI_SC_EVT"
+,		"CI_SC_EVT"
+,		"CI_SC_EVT"
+
+		]
+}, 
+{
+	"name":"CI_SCM_NCTV_RSN",	"size":12,
+	"imports":[		"CI_SCM"
+
+		]
+}, 
+{
+	"name":"CI_SCM_TYPE",	"size":12,
+	"imports":[		"CI_CHTY_SCMTY"
+,		"CI_SCM"
+,		"CI_SCMTY_SATY"
+,		"CI_SCMTY_SUBCAT"
+,		"CI_SCM_TYPE_ALG"
+,		"CI_SC_EVT"
+,		"CI_SC_EVT_TYPE"
+
+		]
+}, 
+{
+	"name":"CI_SCR",	"size":12,
+	"imports":[		"CI_ALG_TYPE"
+,		"CI_NAV_OPT"
+,		"CI_SCR_CRT_GRP"
+,		"CI_SCR_DA"
+,		"CI_SCR_STEP"
+,		"CI_SCR_STEP"
+,		"CI_TD_EX_LIST"
+
+		]
+}, 
+{
+	"name":"CI_SCR_CRT_GRP",	"size":12,
+	"imports":[		"CI_SCR_CRT"
+,		"CI_SCR_CRT"
+,		"CI_SCR_CRT"
+,		"CI_SCR_CRT"
+
+		]
+}, 
+{
+	"name":"CI_SCR_STEP",	"size":12,
+	"imports":[		"CI_SCR_FLD_MAP"
+,		"CI_SCR_FLD_MAP"
+,		"CI_SCR_FLD_MAP"
+,		"CI_SCR_FLD_MAP"
+,		"CI_SCR_PRMPT"
+,		"CI_SCR_PRMPT"
+,		"CI_SCR_PRMPT"
+,		"CI_SCR_PRMPT"
+
+		]
+}, 
+{
+	"name":"CI_SC_EVT",	"size":12,
+	"imports":[		"CI_SC_EVT"
+,		"CI_SC_EVT_FT"
+
+		]
+}, 
+{
+	"name":"CI_SC_EVT_TYPE",	"size":12,
+	"imports":[		"CI_SC_EVT"
+,		"CI_SC_EVTTY_ALG"
+
+		]
+}, 
+{
+	"name":"CI_SC_TYPE",	"size":12,
+	"imports":[		"CI_APP_SVC_SCTY"
+,		"CI_SC_AUTH_LVL"
+
+		]
+}, 
+{
+	"name":"CI_SEAS_TM_SHIFT",	"size":12,
+	"imports":[		"CI_SEAS_SHIFT"
+,		"CI_TIME_ZONE"
+
+		]
+}, 
+{
+	"name":"CI_SEV_EVT",	"size":12,
+	"imports":[		"CI_CR_RAT_HIST"
+,		"CI_CR_RAT_HIST"
+,		"CI_CR_RAT_HIST"
+,		"CI_CR_RAT_HIST"
+,		"CI_SEV_EVT_CC"
+,		"CI_SEV_EVT_CC"
+,		"CI_SEV_EVT_CC"
+,		"CI_SEV_EVT_CC"
+,		"CI_SEV_EVT_DEP"
+,		"CI_SEV_EVT_DEP"
+,		"CI_SEV_EVT_DEP"
+,		"CI_SEV_EVT_DEP"
+,		"CI_SEV_EVT_FA"
+,		"CI_SEV_EVT_FA"
+,		"CI_SEV_EVT_FA"
+,		"CI_SEV_EVT_FA"
+
+		]
+}, 
+{
+	"name":"CI_SEV_EVT_TYPE",	"size":12,
+	"imports":[		"CI_SEV_EVT"
+,		"CI_SEV_RESP"
+
+		]
+}, 
+{
+	"name":"CI_SEV_PROC",	"size":12,
+	"imports":[		"CI_SEV_EVT"
+
+		]
+}, 
+{
+	"name":"CI_SEV_PROC_TMP",	"size":12,
+	"imports":[		"CI_SEV_CRIT"
+,		"CI_SEV_PROC"
+,		"CI_SEV_RESP"
+
+		]
+}, 
+{
+	"name":"CI_SEV_RESP",	"size":12,
+	"imports":[		"CI_SEV_RESP_DEP"
+,		"CI_SEV_RESP_DEP"
+,		"CI_SEV_RESP_DEP"
+,		"CI_SEV_RESP_DEP"
+
+		]
+}, 
+{
+	"name":"CI_SIC",	"size":12,
+	"imports":[		"CI_SA"
+
+		]
+}, 
+{
+	"name":"CI_SP",	"size":12,
+	"imports":[		"CI_BCHG_READ"
+,		"CI_BCHG_UP_READ"
+,		"CI_BILL_SCNR_SQ"
+,		"CI_BSEG_READ"
+,		"CI_FA"
+,		"CI_FA_STEP"
+,		"CI_SA_SP"
+,		"CI_SA_SP_FA"
+,		"CI_SP_CHAR"
+,		"CI_SP_EQ"
+,		"CI_SP_GEO"
+,		"CI_SP_ITEM_HIST"
+,		"CI_SP_MTR_HIST"
+,		"CI_SP_MULT_ITEM"
+,		"CI_SP_OP_AREA"
+,		"CI_SP_RTE_CFG"
+,		"CI_SVC_RTE_STG_DWN"
+
+		]
+}, 
+{
+	"name":"CI_SPR",	"size":12,
+	"imports":[		"CI_DV_TEST"
+,		"CI_FT_PROC"
+,		"CI_MR_CYC"
+,		"CI_SA_REL"
+,		"CI_SPR_BMSG"
+,		"CI_SPR_SARELTY"
+
+		]
+}, 
+{
+	"name":"CI_SPR_SARELTY",	"size":12,
+	"imports":[		"CI_SPR_POST"
+,		"CI_SPR_POST"
+,		"CI_SPR_POST"
+,		"CI_SPR_POST"
+,		"CI_SPR_VALID"
+,		"CI_SPR_VALID"
+,		"CI_SPR_VALID"
+,		"CI_SPR_VALID"
+
+		]
+}, 
+{
+	"name":"CI_SP_ITEM_HIST",	"size":12,
+	"imports":[		"CI_FA_STEP"
+,		"CI_ITEM_LOC_HIS"
+,		"CI_SP_ITEM_EVT"
+
+		]
+}, 
+{
+	"name":"CI_SP_MTR_HIST",	"size":12,
+	"imports":[		"CI_FA_STEP"
+,		"CI_MR_STAGE_DWN"
+,		"CI_MTR_LOC_HIS"
+,		"CI_SP_MTR_EVT"
+
+		]
+}, 
+{
+	"name":"CI_SP_MULT_ITEM",	"size":12,
+	"imports":[		"CI_MULT_ITEM"
+,		"CI_MULT_ITEM"
+,		"CI_MULT_ITEM"
+,		"CI_MULT_ITEM"
+
+		]
+}, 
+{
+	"name":"CI_SP_RTE_CFG",	"size":12,
+	"imports":[		"CI_SP_RTE"
+,		"CI_SP_RTE"
+,		"CI_SP_RTE"
+,		"CI_SP_RTE"
+
+		]
+}, 
+{
+	"name":"CI_SP_TYPE",	"size":12,
+	"imports":[		"CI_CHTY_SPTY"
+,		"CI_FS_CTRL"
+,		"CI_PKG_SA_TYPE"
+,		"CI_SA_SP_TYPE"
+,		"CI_SP"
+,		"CI_SPTY_ITEMTY"
+,		"CI_SPTY_MTRTY"
+,		"CI_SP_TYPE_CHAR"
+,		"CI_SP_TYPE_EQ"
+
+		]
+}, 
+{
+	"name":"CI_SQI",	"size":12,
+	"imports":[		"CI_ADJ_CALC_LN"
+,		"CI_BCHG_READ"
+,		"CI_BCHG_READ"
+,		"CI_BCHG_SQ"
+,		"CI_BCHG_UP_READ"
+,		"CI_BCHG_UP_READ"
+,		"CI_BCHG_UP_SQ"
+,		"CI_BILL_SCNR_SQ"
+,		"CI_BSEG_CALC_LN"
+,		"CI_BSEG_READ"
+,		"CI_BSEG_READ"
+,		"CI_BSEG_SQ"
+,		"CI_B_TMPLT_SQ"
+,		"CI_INTV_PF_TYP"
+,		"CI_INTV_REG_TYP"
+,		"CI_RC"
+,		"CI_RC_CRT"
+,		"CI_SQ_RULE"
+
+		]
+}, 
+{
+	"name":"CI_SQ_RULE",	"size":12,
+	"imports":[		"CI_RS_SQ_RULE"
+
+		]
+}, 
+{
+	"name":"CI_SS_OPT",	"size":12,
+	"imports":[		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CONT_QTY_TMP"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_CVAL_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_RDR_TMPL"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SA_CHAR_TMP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_COP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_IP"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TC"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_SS_OPT_TMAP"
+
+		]
+}, 
+{
+	"name":"CI_STK_LOC",	"size":12,
+	"imports":[		"CI_FA_STP_STGUP"
+,		"CI_ITEM_LOC_HIS"
+,		"CI_ITEM_STK_LOC"
+,		"CI_MTR_LOC_HIS"
+,		"CI_MTR_STK_LOC"
+,		"CI_STK_LOC"
+,		"CI_STK_LOC_CHAR"
+,		"CI_SVC_TYP_DFLT"
+
+		]
+}, 
+{
+	"name":"CI_STM",	"size":12,
+	"imports":[		"CI_STM_DTL"
+
+		]
+}, 
+{
+	"name":"CI_STM_CNST",	"size":12,
+	"imports":[		"CI_STM"
+,		"CI_STM_CNST_DTL"
+
+		]
+}, 
+{
+	"name":"CI_STM_CNST_DTL",	"size":12,
+	"imports":[		"CI_STM_DTL"
+
+		]
+}, 
+{
+	"name":"CI_STM_CYC",	"size":12,
+	"imports":[		"CI_STM_CNST"
+,		"CI_STM_CYC_SCH"
+
+		]
+}, 
+{
+	"name":"CI_STM_RTE_TY",	"size":12,
+	"imports":[		"CI_STM_CNST"
+
+		]
+}, 
+{
+	"name":"CI_SVC_TYPE",	"size":12,
+	"imports":[		"CI_DCL"
+,		"CI_FAC_LVL_1"
+,		"CI_FAC_LVL_2"
+,		"CI_FAC_LVL_3"
+,		"CI_FAC_LVL_NAME"
+,		"CI_ITEM_TYPE"
+,		"CI_LL_DETAIL"
+,		"CI_MODEL"
+,		"CI_MTR_CONFIG_TY"
+,		"CI_MTR_TYPE"
+,		"CI_RS"
+,		"CI_SA_TYPE"
+,		"CI_SP_TYPE"
+,		"CI_SVC_TYP_DFLT"
+
+		]
+}, 
+{
+	"name":"CI_SVC_TYP_DFLT",	"size":12,
+	"imports":[		"CI_CHAR_DFLT_SV"
+,		"CI_CHAR_DFLT_SV"
+,		"CI_CHAR_DFLT_SV"
+,		"CI_CHAR_DFLT_SV"
+,		"CI_CHAR_DFLT_SV"
+,		"CI_CHAR_DFLT_SV"
+,		"CI_CHAR_DFLT_SV"
+,		"CI_CHAR_DFLT_SV"
+,		"CI_CHAR_DFLT_SV"
+,		"CI_FS_CL_DFLT"
+,		"CI_FS_CL_DFLT"
+,		"CI_FS_CL_DFLT"
+,		"CI_FS_CL_DFLT"
+,		"CI_FS_CL_DFLT"
+,		"CI_FS_CL_DFLT"
+,		"CI_FS_CL_DFLT"
+,		"CI_FS_CL_DFLT"
+,		"CI_FS_CL_DFLT"
+,		"CI_GEO_DFLT_SVC"
+,		"CI_GEO_DFLT_SVC"
+,		"CI_GEO_DFLT_SVC"
+,		"CI_GEO_DFLT_SVC"
+,		"CI_GEO_DFLT_SVC"
+,		"CI_GEO_DFLT_SVC"
+,		"CI_GEO_DFLT_SVC"
+,		"CI_GEO_DFLT_SVC"
+,		"CI_GEO_DFLT_SVC"
+
+		]
+}, 
+{
+	"name":"CI_TAX_EX_TYPE",	"size":12,
+	"imports":[		"CI_SA_CONTERM"
+
+		]
+}, 
+{
+	"name":"CI_TC",	"size":12,
+	"imports":[		"CI_SA_TC"
+,		"CI_SS_OPT_TC"
+
+		]
+}, 
+{
+	"name":"CI_TD_ENTRY",	"size":12,
+	"imports":[		"CI_TD_DRLKEY"
+,		"CI_TD_ENTRY_CHA"
+,		"CI_TD_LOG"
+,		"CI_TD_MSG_PARM"
+,		"CI_TD_SRTKEY"
+
+		]
+}, 
+{
+	"name":"CI_TD_TYPE",	"size":12,
+	"imports":[		"CI_CHTY_TDTY"
+,		"CI_TD_DRLKEY_TY"
+,		"CI_TD_ENTRY"
+,		"CI_TD_EX_LIST"
+,		"CI_TD_SRTKEY_TY"
+,		"CI_TD_TYPE_ALG"
+,		"CI_TD_TYPE_CHAR"
+,		"CI_TD_VAL_ROLE"
+
+		]
+}, 
+{
+	"name":"CI_TENDER_TYPE",	"size":12,
+	"imports":[		"CI_APAY_SRC"
+,		"CI_PAY_TNDR"
+,		"CI_PAY_TNDR_ST"
+,		"CI_PEVT_DTL_ST"
+,		"CI_TNDR_END_BAL"
+,		"CI_TURN_IN"
+
+		]
+}, 
+{
+	"name":"CI_THRD_PTY",	"size":12,
+	"imports":[		"CI_PP"
+
+		]
+}, 
+{
+	"name":"CI_TMAP_RELTY",	"size":12,
+	"imports":[		"CI_RC"
+,		"CI_SATY_TMAPRTY"
+,		"CI_SA_TOU_MAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_TMAP_REL"
+
+		]
+}, 
+{
+	"name":"CI_TMAP_TMPL",	"size":12,
+	"imports":[		"CI_TMAP_COM_CAL"
+,		"CI_TMAP_COM_CAL"
+,		"CI_TMAP_COM_DAY"
+,		"CI_TMAP_COM_WK"
+,		"CI_TMAP_COM_WK"
+
+		]
+}, 
+{
+	"name":"CI_TMAP_TYPE",	"size":12,
+	"imports":[		"CI_SS_OPT_TMAP"
+,		"CI_TMAP_REL"
+,		"CI_TMAP_TMPL"
+,		"CI_TMAP_TYP_ALG"
+,		"CI_TOU_MAP"
+
+		]
+}, 
+{
+	"name":"CI_TNDR_CTL",	"size":12,
+	"imports":[		"CI_PAY_TNDR"
+,		"CI_PEVT_DTL_ST"
+,		"CI_TNDR_CTL_CHAR"
+,		"CI_TNDR_CTL_ST"
+,		"CI_TNDR_END_BAL"
+,		"CI_TURN_IN"
+
+		]
+}, 
+{
+	"name":"CI_TNDR_CTL_ST",	"size":12,
+	"imports":[		"CI_PAY_TNDR_ST"
+,		"CI_PAY_TNDR_ST"
+,		"CI_PAY_TNDR_ST"
+,		"CI_PAY_TNDR_ST"
+,		"CI_PAY_TNDR_ST"
+,		"CI_PAY_TNDR_ST"
+,		"CI_PAY_TNDR_ST"
+,		"CI_PAY_TNDR_ST"
+,		"CI_PAY_TNDR_ST"
+
+		]
+}, 
+{
+	"name":"CI_TNDR_SRCE",	"size":12,
+	"imports":[		"CI_APAY_RT_TYPE"
+,		"CI_TNDR_CTL"
+
+		]
+}, 
+{
+	"name":"CI_TOS",	"size":12,
+	"imports":[		"CI_TOS_CE"
+,		"CI_TOS_CHAR"
+,		"CI_TOS_SA"
+
+		]
+}, 
+{
+	"name":"CI_TOS_CAN_RSN",	"size":12,
+	"imports":[		"CI_TOS"
+
+		]
+}, 
+{
+	"name":"CI_TOS_TYPE",	"size":12,
+	"imports":[		"CI_CHTY_TOSTY"
+,		"CI_TOS"
+,		"CI_TOS_TYPE_CE"
+
+		]
+}, 
+{
+	"name":"CI_TOU",	"size":12,
+	"imports":[		"CI_ADJ_CALC_LN"
+,		"CI_BCHG_READ"
+,		"CI_BCHG_READ"
+,		"CI_BCHG_SQ"
+,		"CI_BCHG_UP_READ"
+,		"CI_BCHG_UP_READ"
+,		"CI_BCHG_UP_SQ"
+,		"CI_BILL_SCNR_SQ"
+,		"CI_BSEG_CALC_LN"
+,		"CI_BSEG_READ"
+,		"CI_BSEG_READ"
+,		"CI_BSEG_SQ"
+,		"CI_B_TMPLT_SQ"
+,		"CI_CVAL_TOU_TMP"
+,		"CI_MTR_CFGTY_RL"
+,		"CI_RC"
+,		"CI_RC_CRT"
+,		"CI_REG"
+,		"CI_RR_STAGE_UP"
+,		"CI_SQ_RULE"
+,		"CI_TMAP_COM_DAY"
+,		"CI_TOU_BF_VAL"
+,		"CI_TOU_CONT_VAL"
+,		"CI_TOU_DATA"
+,		"CI_TOU_GRP_TOU"
+,		"CI_TREND"
+
+		]
+}, 
+{
+	"name":"CI_TOU_DATA_SET",	"size":12,
+	"imports":[		"CI_TOU_DATA"
+,		"CI_TOU_DS_EXC"
+
+		]
+}, 
+{
+	"name":"CI_TOU_DS_EXC",	"size":12,
+	"imports":[		"CI_TOU_DS_EXP"
+
+		]
+}, 
+{
+	"name":"CI_TOU_GRP",	"size":12,
+	"imports":[		"CI_BFCH_TOUGRP"
+,		"CI_BF_VAL"
+,		"CI_CVAL_TMPL"
+,		"CI_MTR_CONFIG_TY"
+,		"CI_SA_CONTERM"
+,		"CI_TMAP_TYPE"
+,		"CI_TOU_GRP_TOU"
+
+		]
+}, 
+{
+	"name":"CI_TOU_MAP",	"size":12,
+	"imports":[		"CI_RC"
+,		"CI_SA_TOU_MAP"
+,		"CI_SS_OPT_TMAP"
+,		"CI_TOU_DATA_SET"
+
+		]
+}, 
+{
+	"name":"CI_TREND_AREA",	"size":12,
+	"imports":[		"CI_DEG_DAY"
+,		"CI_POST_DFLT"
+,		"CI_PREM"
+,		"CI_TREND"
+
+		]
+}, 
+{
+	"name":"CI_TREND_CL",	"size":12,
+	"imports":[		"CI_SP_TYPE"
+,		"CI_TREND"
+
+		]
+}, 
+{
+	"name":"CI_TST_COMP_TYP",	"size":12,
+	"imports":[		"CI_DV_TEST_COMP"
+,		"CI_DV_TTYP_COMP"
+,		"CI_TST_RES_TYP"
+
+		]
+}, 
+{
+	"name":"CI_TST_RES_TYP",	"size":12,
+	"imports":[		"CI_DV_TEST_RES"
+,		"CI_DV_TEST_RES"
+,		"CI_DV_TEST_RES"
+,		"CI_DV_TEST_RES"
+]
+}
+]

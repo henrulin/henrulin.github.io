@@ -1,0 +1,14 @@
+[
+    {
+        "name": "CI_ACCT",
+        "size": 12,
+        "imports": [
+            "CI_ACCT_APAY"
+        ]
+    },
+    {
+        "name": "CI_ACCT_APAY",
+        "size": 12,
+        "imports": [ "CI_ACCT","Blah" ]
+    }
+]

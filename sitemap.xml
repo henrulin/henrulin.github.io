@@ -3,6 +3,21 @@
   
     
       <url>
+        <loc>http://www.hlin.co/blog/Hawaii/</loc>
+        
+        <lastmod>2015-08-31T00:00:00+10:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.5</priority>
+        
+      </url>
+    
+  
+    
+      <url>
         <loc>http://www.hlin.co/blog/Singularity-Outcomes/</loc>
         
         <lastmod>2015-04-02T00:00:00+11:00</lastmod>
@@ -99,7 +114,7 @@
       <url>
         <loc>http://www.hlin.co/about/</loc>
         
-        <lastmod>2015-04-11T19:20:30+10:00</lastmod>
+        <lastmod>2015-08-31T01:13:55+10:00</lastmod>
         
         
         <changefreq>monthly</changefreq>
@@ -114,7 +129,7 @@
       <url>
         <loc>http://www.hlin.co/</loc>
         
-        <lastmod>2015-04-11T19:20:30+10:00</lastmod>
+        <lastmod>2015-08-31T01:13:55+10:00</lastmod>
         
         
         <changefreq>daily</changefreq>
@@ -129,7 +144,7 @@
       <url>
         <loc>http://www.hlin.co/blog/</loc>
         
-        <lastmod>2015-04-11T19:20:30+10:00</lastmod>
+        <lastmod>2015-08-31T01:13:55+10:00</lastmod>
         
         
         <changefreq>daily</changefreq>

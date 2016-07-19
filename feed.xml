@@ -7,6 +7,38 @@
     <atom:link href="http://www.hlin.co/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Create RSS Feeds</title>
+        <description>&lt;p&gt;I love RSS. It is one of the best ways for websites to notify me of significant content updates. 
+Sadly not all websites provide this where it could be of high value. 
+This means the author is either not aware or does not desire supporting this feature and any external means to add this function is therefore an ephemeral solution. 
+It is with this in mind that I use the FiveFilters.org &lt;a href=&quot;http://createfeed.fivefilters.org&quot;&gt;Feed Creator&lt;/a&gt; in place of something like an emailed newsletter or repeatedly visiting a webpage. &lt;/p&gt;
+
+&lt;p&gt;Feed Creator is a web service that creates an RSS feed out of any HTML page. 
+It does this by parsing the DOM using a user specified combination of contextual CSS selectors and other processing options.
+The processing is triggered from a GET or POST request to the FiveFilters server and the first 10 results are stored and cached for 30 minutes.&lt;/p&gt;
+
+&lt;p&gt;I find that this limited result is more than sufficient to relay to a feed aggregator service like &lt;a href=&quot;http://feedly.com&quot;&gt;Feedly&lt;/a&gt; to cache for a longer period so I can then consume from, at my leisure, using an RSS reader like &lt;a href=&quot;http://reederapp.com/ios/&quot;&gt;Reeder&lt;/a&gt;. 
+I assume Feedly magically triggers the Feed Creator service when it spiders through the Internet because I periodically receive new results from Feedly.&lt;/p&gt;
+
+&lt;p&gt;The Feed Creator page has sufficient directions to get you started but here are some example feeds that you can paste directly in your feed aggregator as a feed or go directly in your browser to play around with the feed preview in the FiveFilters.org landing page:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://createfeed.fivefilters.org/index.php?url=http%3A%2F%2Fwww.whitehorse.vic.gov.au%2FLatest-News.html&amp;amp;in_id_or_class=structured-list&quot;&gt;This&lt;/a&gt; is a feed based on my &lt;a href=&quot;http://www.monash.vic.gov.au/About-Us/News&quot;&gt;local government news page&lt;/a&gt; that grabs links in a class called “structured-list”. By default the text found in the &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; element is used as the feed title.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;http://createfeed.fivefilters.org/index.php?url=http%3A%2F%2Fwww.whitehorse.vic.gov.au%2FLatest-News.html&amp;amp;in_id_or_class=structured-list&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://createfeed.fivefilters.org/index.php?url=https%3A%2F%2Fwww.ozbargain.com.au%2Ftag%2Flcd-tv&amp;amp;text_contains=4K&amp;amp;url_contains=node&amp;amp;item_title=.title&quot;&gt;This&lt;/a&gt; is a more explicit feed that searches &lt;a href=&quot;https://www.ozbargain.com.au/&quot;&gt;Ozbargains&lt;/a&gt; LCD TV tags where the title or description contains 4K. The parameter item_title uses CSS Selector syntax to define the element where title information can be found.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;http://createfeed.fivefilters.org/index.php?url=https%3A%2F%2Fwww.ozbargain.com.au%2Ftag%2Flcd-tv&amp;amp;text_contains=4K&amp;amp;url_contains=node&amp;amp;item_title=.title&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Final point on this topic is if you want to get tricky with those URL parameters - for example targeting specific parts of web pages and excluding some other results - then you&amp;#39;ll need a webpage source viewer. There are perfectly fine ones that come with Safari and Firefox.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Jul 2016 00:00:00 +1000</pubDate>
+        <link>http://www.hlin.co/blog/Create-RSS-Feeds/</link>
+        <guid isPermaLink="true">http://www.hlin.co/blog/Create-RSS-Feeds/</guid>
+      </item>
+    
+      <item>
         <title>Hawai&#39;i</title>
         <description>&lt;p&gt;I went to Hawai&amp;#39;i in the spring of 2015 for 3 weeks and these are the things I tried and would recommend.&lt;/p&gt;
 
@@ -20,7 +52,7 @@
 
 &lt;h2&gt;Hawai&amp;#39;i Island&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/post_related/hawaii_makalawena-f2e0de64e2bb97295af106dfc25cb333.jpg&quot; alt=&quot;Makalawena&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/post_related/hawaii_makalawena.jpg&quot; alt=&quot;Makalawena&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.tripadvisor.com.au/Attraction_Review-g60872-d560901-Reviews-Makalawena_Pu_u_Ali_i-Kailua_Kona_Island_of_Hawaii_Hawaii.html&quot;&gt;Makalawena beach&lt;/a&gt; is a secluded and personal beach, it&amp;#39;s intimate. The hazardously bumpy offtrack road and the lengthy hike to reach the beach itself filters out all but the most driven individuals. But this beach is worth it. If this was the only beach I ever experience in a lifetime, I would not feel short changed. During my time at this beach, I felt as one with the earth when a turtle swam by, raising its front flipper as if to high five.&lt;/p&gt;
 
@@ -34,11 +66,11 @@
 
 &lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Kalalau_Trail&quot;&gt;Kalalau trail&lt;/a&gt; starting at Ke&amp;#39;e beach is as gorgeous as it is difficult. The trail was a steep, rocky, muddy ribbon around the Na Pali coast line. North facing, the coast is sun drenched, looking out to infinity through rainforest trees. This is a whole day hike that I wish I could have completed, but I am grateful to have tried anyway. On the way there Hanalei Beach was a worthwhile visit to speculate what life would be like for the epically wealthy (see also Princeville), the cost of nestling at the foot a lush mountain with expansive soft white sand in front. Many parts of &lt;a href=&quot;http://www.imdb.com/title/tt1033575/&quot;&gt;The Descendants&lt;/a&gt; were also filmed here and I think it is George Clooney&amp;#39;s finest performance.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/post_related/hawaii_kalalau-5f33f75a3e807a0d68bef4fe6c9e78e6.jpg&quot; alt=&quot;Kalalau Valley&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/post_related/hawaii_kalalau.jpg&quot; alt=&quot;Kalalau Valley&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.tripadvisor.com.au/Attraction_Review-g29218-d219643-Reviews-Kalalau_Lookout-Kauai_Hawaii.html&quot;&gt;Kalalau Lookout&lt;/a&gt; is a lengthy drive from the western roads and as you wound clockwise back up towards the Na Pali Coast you encounter Waimea Canyons. Everyone will tell you it&amp;#39;s like the Grand Canyon. Once you get past the canyons the vista over and into Kalalau Valley is tremendous and I think at this point I realised I don&amp;#39;t have suitable adjectives to describe that type of blue.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/post_related/hawaii_poipu_beach-fabbb3d74304b55ed2fef243451d54f3.jpg&quot; alt=&quot;Poipu Beach&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/post_related/hawaii_poipu_beach.jpg&quot; alt=&quot;Poipu Beach&quot;&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -48,7 +80,7 @@
 
 &lt;p&gt;The state of Hawai&amp;#39;i is an amazing set of distinct climates, cultural background chained together to form a fascinating archipelago. I cherish every minute of my time there with Fiona.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/post_related/hawaii_holualoa-ef74210cd9273dd89b47fb6e38305f46.jpg&quot; alt=&quot;Holualoa Goodbye&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/post_related/hawaii_holualoa.jpg&quot; alt=&quot;Holualoa Goodbye&quot;&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 31 Aug 2015 00:00:00 +1000</pubDate>
         <link>http://www.hlin.co/blog/Hawaii/</link>
@@ -69,7 +101,7 @@
 &lt;li&gt;Supported - we&amp;#39;re elevated for example when all of our expressable problems can be solved. Perhaps due to the successes of those who were concerned by outcome 1.&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Indifferent - all AI quickly ignore us / leave us because humans are insignificant in the scope of its existence (à la &lt;a href=&quot;http://www.imdb.com/title/tt1798709/?ref_=fn_al_tt_1&quot;&gt;Her&lt;/a&gt;) or commits self-destruction.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/post_related/spike-jonze-her-movie-sad-2d6cf2a6d7d82d985a21d8e793861b85.jpg&quot; alt=&quot;Sad&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/post_related/spike-jonze-her-movie-sad.jpg&quot; alt=&quot;Sad&quot;&gt;
 &lt;div class=&#39;caption&#39;&gt;&amp;copy; Annapurna Pictures&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;And one that I like the most:&lt;/p&gt;&lt;/li&gt;
@@ -87,15 +119,15 @@
         <title>Emoji Bonanza</title>
         <description>&lt;p&gt;You can find more iOS native emojis from the Chinese (Simplified) - Pinyin keyboard.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/post_related/emoji2_keyboard-b871890842164ffccd793697299f75ae.PNG&quot; alt=&quot;New Keyboard&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/post_related/emoji2_keyboard.PNG&quot; alt=&quot;New Keyboard&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Access is then through this new keyboard in the symbol section (much like the way you get to the &amp;#39;=&amp;#39; character).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/post_related/emoji2_access-3d62ec3a2222ee6eb912cec15800c748.PNG&quot; alt=&quot;Access&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/post_related/emoji2_access.PNG&quot; alt=&quot;Access&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;There is an extensive collection of unicode emojis.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/post_related/emoji2_success-a942fc37d80b32c22d7fc59d1f1ea1e7.PNG&quot; alt=&quot;Success&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/post_related/emoji2_success.PNG&quot; alt=&quot;Success&quot;&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 27 Mar 2015 00:00:00 +1100</pubDate>
         <link>http://www.hlin.co/blog/Emoji-Bonanza/</link>

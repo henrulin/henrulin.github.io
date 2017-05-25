@@ -7,6 +7,17 @@
     <atom:link href="http://www.hlin.co/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Maxwell</title>
+        <description>&lt;p&gt;Maxwell is my one year old boy. He instills way more meaning to the things I enjoy and also to the things I don&amp;#39;t - like maybe the Wiggles are okay. To Max: I hope you&amp;#39;ve had fun so far. Both mum and I look forward to being there for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_related/maxwell_new_caledonia.jpg&quot; alt=&quot;Maxwell&quot;&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 May 2017 00:00:00 +1000</pubDate>
+        <link>http://www.hlin.co/blog/Maxwell/</link>
+        <guid isPermaLink="true">http://www.hlin.co/blog/Maxwell/</guid>
+      </item>
+    
+      <item>
         <title>Create RSS Feeds</title>
         <description>&lt;p&gt;I love RSS. It is one of the best ways for websites to notify me of significant content updates. 
 Sadly not all websites provide this where it could be of high value. 
@@ -23,10 +34,10 @@ I assume Feedly magically triggers the Feed Creator service when it spiders thro
 &lt;p&gt;The Feed Creator page has sufficient directions to get you started but here are some example feeds that you can paste directly in your feed aggregator as a feed or go directly in your browser to play around with the feed preview in the FiveFilters.org landing page:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://createfeed.fivefilters.org/index.php?url=http%3A%2F%2Fwww.whitehorse.vic.gov.au%2FLatest-News.html&amp;amp;in_id_or_class=structured-list&quot;&gt;This&lt;/a&gt; is a feed based on my &lt;a href=&quot;http://www.monash.vic.gov.au/About-Us/News&quot;&gt;local government news page&lt;/a&gt; that grabs links in a class called “structured-list”. By default the text found in the &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; element is used as the feed title.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://createfeed.fivefilters.org/index.php?url=http%3A%2F%2Fwww.whitehorse.vic.gov.au%2FLatest-News.html&amp;in_id_or_class=structured-list&quot;&gt;This&lt;/a&gt; is a feed based on my &lt;a href=&quot;http://www.monash.vic.gov.au/About-Us/News&quot;&gt;local government news page&lt;/a&gt; that grabs links in a class called “structured-list”. By default the text found in the &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; element is used as the feed title.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;http://createfeed.fivefilters.org/index.php?url=http%3A%2F%2Fwww.whitehorse.vic.gov.au%2FLatest-News.html&amp;amp;in_id_or_class=structured-list&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://createfeed.fivefilters.org/index.php?url=https%3A%2F%2Fwww.ozbargain.com.au%2Ftag%2Flcd-tv&amp;amp;text_contains=4K&amp;amp;url_contains=node&amp;amp;item_title=.title&quot;&gt;This&lt;/a&gt; is a more explicit feed that searches &lt;a href=&quot;https://www.ozbargain.com.au/&quot;&gt;Ozbargains&lt;/a&gt; LCD TV tags where the title or description contains 4K. The parameter item_title uses CSS Selector syntax to define the element where title information can be found.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://createfeed.fivefilters.org/index.php?url=https%3A%2F%2Fwww.ozbargain.com.au%2Ftag%2Flcd-tv&amp;text_contains=4K&amp;url_contains=node&amp;item_title=.title&quot;&gt;This&lt;/a&gt; is a more explicit feed that searches &lt;a href=&quot;https://www.ozbargain.com.au/&quot;&gt;Ozbargains&lt;/a&gt; LCD TV tags where the title or description contains 4K. The parameter item_title uses CSS Selector syntax to define the element where title information can be found.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;http://createfeed.fivefilters.org/index.php?url=https%3A%2F%2Fwww.ozbargain.com.au%2Ftag%2Flcd-tv&amp;amp;text_contains=4K&amp;amp;url_contains=node&amp;amp;item_title=.title&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -39,7 +50,7 @@ I assume Feedly magically triggers the Feed Creator service when it spiders thro
       </item>
     
       <item>
-        <title>Hawai&#39;i</title>
+        <title>Hawai'i</title>
         <description>&lt;p&gt;I went to Hawai&amp;#39;i in the spring of 2015 for 3 weeks and these are the things I tried and would recommend.&lt;/p&gt;
 
 &lt;h2&gt;Honolulu&lt;/h2&gt;
@@ -102,7 +113,7 @@ I assume Feedly magically triggers the Feed Creator service when it spiders thro
 &lt;li&gt;&lt;p&gt;Indifferent - all AI quickly ignore us / leave us because humans are insignificant in the scope of its existence (à la &lt;a href=&quot;http://www.imdb.com/title/tt1798709/?ref_=fn_al_tt_1&quot;&gt;Her&lt;/a&gt;) or commits self-destruction.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/post_related/spike-jonze-her-movie-sad.jpg&quot; alt=&quot;Sad&quot;&gt;
-&lt;div class=&#39;caption&#39;&gt;&amp;copy; Annapurna Pictures&lt;/div&gt;&lt;/p&gt;
+&lt;div class='caption'&gt;&amp;copy; Annapurna Pictures&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;And one that I like the most:&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Symbiosis. An AI, once transcedent will use humanity as a lush sensory layer. Having being divorced from survival drivers it would instead grow a desire to reflect on all sensory input, forming a higher order meditation. Humans will in return attain greater insight on a species level and be able to enact decisions at a planetary level.&lt;/p&gt;&lt;/li&gt;
@@ -152,7 +163,7 @@ encourages a level of vicarious travelling that I imagine would only be trumped 
       </item>
     
       <item>
-        <title>Alzheimer&#39;s Disease</title>
+        <title>Alzheimer's Disease</title>
         <description>&lt;p&gt;When my grandfather died of cancer, it wasn&amp;#39;t the ravages of the cancer that horrified me the most. 
 It was the fact that Alzheimer&amp;#39;s Disease had already quietly stolen the last oppurtunity for me to be meaningfully there for him.
 It erroded a sense of his dignity.

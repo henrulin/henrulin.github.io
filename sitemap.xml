@@ -3,6 +3,21 @@
   
     
       <url>
+        <loc>http://www.hlin.co/blog/A-Noble-Aim/</loc>
+        
+        <lastmod>2017-09-08T00:00:00+10:00</lastmod>
+        
+        
+        <changefreq>monthly</changefreq>
+        
+        
+        <priority>0.5</priority>
+        
+      </url>
+    
+  
+    
+      <url>
         <loc>http://www.hlin.co/blog/Maxwell/</loc>
         
         <lastmod>2017-05-19T00:00:00+10:00</lastmod>
@@ -144,7 +159,7 @@
       <url>
         <loc>http://www.hlin.co/about/</loc>
         
-        <lastmod>2017-09-08T22:53:38+10:00</lastmod>
+        <lastmod>2017-09-09T15:18:37+10:00</lastmod>
         
         
         <changefreq>monthly</changefreq>
@@ -159,7 +174,7 @@
       <url>
         <loc>http://www.hlin.co/blog/</loc>
         
-        <lastmod>2017-09-08T22:53:38+10:00</lastmod>
+        <lastmod>2017-09-09T15:18:37+10:00</lastmod>
         
         
         <changefreq>daily</changefreq>
@@ -174,7 +189,7 @@
       <url>
         <loc>http://www.hlin.co/</loc>
         
-        <lastmod>2017-09-08T22:53:38+10:00</lastmod>
+        <lastmod>2017-09-09T15:18:37+10:00</lastmod>
         
         
         <changefreq>daily</changefreq>

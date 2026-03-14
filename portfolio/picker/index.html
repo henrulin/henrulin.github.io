@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Numbers · Flow State Picker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+
+    <!-- Header -->
+    <header class="header">
+      <h1 class="title">Numbers</h1>
+      <div class="mode-toggle">
+        <button class="mode-btn active" id="btn-powerball" data-mode="powerball">Powerball</button>
+        <button class="mode-btn" id="btn-ozlotto" data-mode="ozlotto">Oz Lotto</button>
+      </div>
+    </header>
+
+    <!-- Status bar -->
+    <div class="status-bar">
+      <span class="status-text" id="status-text">Choose your numbers — trust what resonates</span>
+      <span class="count-display" id="count-display">0 / 7</span>
+    </div>
+
+    <!-- Number cloud -->
+    <div class="cloud-container" id="cloud-container">
+      <canvas id="blob-canvas"></canvas>
+      <div class="numbers-layer" id="numbers-layer"></div>
+    </div>
+
+    <!-- Current pick strip -->
+    <div class="current-pick-panel">
+      <div class="selected-row" id="selected-row"></div>
+      <div class="pick-actions">
+        <button class="action-btn save-btn" id="save-btn">Save</button>
+        <button class="action-btn clear-btn" id="clear-btn">Clear</button>
+      </div>
+    </div>
+
+    <!-- Saved picks collapsible list -->
+    <div class="history-panel" id="history-panel">
+      <button class="history-header" id="history-toggle">
+        <span class="history-title">Saved Picks <span class="history-count" id="history-count">0</span></span>
+        <span class="history-actions">
+          <span class="clear-all-btn" id="clear-all-btn">Clear all</span>
+          <span class="history-chevron" id="history-chevron">›</span>
+        </span>
+      </button>
+      <div class="history-list" id="history-list"></div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

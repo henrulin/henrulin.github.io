@@ -1,0 +1,480 @@
+/* ── Reset & Base ─────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:         #0c0e14;
+  --bg2:        #11141e;
+  --surface:    rgba(255,255,255,0.04);
+  --border:     rgba(255,255,255,0.07);
+  --text:       rgba(255,255,255,0.82);
+  --muted:      rgba(255,255,255,0.35);
+  --accent:     #7c9fff;           /* calm periwinkle */
+  --accent2:    #a78bfa;           /* soft violet */
+  --glow:       rgba(124,159,255,0.18);
+  --sel:        #7c9fff;
+  --sel-pb:     #f59e6a;          /* warm amber for Powerball */
+  --num-size:   44px;
+  --num-font:   14px;
+  --r:          50%;
+  font-family: 'Inter', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 20px 16px;
+  gap: 14px;
+}
+
+/* ── Header ───────────────────────────────────────────── */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'DM Serif Display', serif;
+  font-style: italic;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: rgba(255,255,255,0.9);
+}
+
+.mode-toggle {
+  display: flex;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 40px;
+  padding: 4px;
+}
+
+.mode-btn {
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 6px 16px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background 0.25s, color 0.25s;
+}
+
+.mode-btn.active {
+  background: rgba(124,159,255,0.14);
+  color: var(--accent);
+}
+
+/* ── Status bar ───────────────────────────────────────── */
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.status-text {
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+.count-display {
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+/* ── Cloud container ──────────────────────────────────── */
+.cloud-container {
+  flex: 1;
+  position: relative;
+  min-height: 0;
+}
+
+#blob-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.numbers-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Number ball ──────────────────────────────────────── */
+.num-ball {
+  position: absolute;
+  width: var(--num-size);
+  height: var(--num-size);
+  border-radius: var(--r);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--num-font);
+  font-weight: 400;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  transition:
+    background 0.3s,
+    border-color 0.3s,
+    color 0.3s,
+    box-shadow 0.3s,
+    transform 0.15s ease;
+  user-select: none;
+
+  background: rgba(255,255,255,0.045);
+  border: 1px solid rgba(255,255,255,0.09);
+  color: rgba(255,255,255,0.55);
+
+  /* subtle idle animation via individual delays set by JS */
+  animation: float-idle 6s ease-in-out infinite;
+}
+
+.num-ball:hover {
+  background: rgba(124,159,255,0.12);
+  border-color: rgba(124,159,255,0.4);
+  color: rgba(255,255,255,0.9);
+  transform: translate(-50%, -50%) scale(1.12);
+}
+
+.num-ball.selected {
+  background: rgba(124,159,255,0.22);
+  border-color: var(--accent);
+  color: #fff;
+  box-shadow: 0 0 18px rgba(124,159,255,0.45), 0 0 6px rgba(124,159,255,0.25);
+  transform: translate(-50%, -50%) scale(1.08);
+  animation: none;
+}
+
+.num-ball.disabled {
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+@keyframes float-idle {
+  0%, 100% { margin-top: 0px; }
+  50%       { margin-top: -4px; }
+}
+
+/* ── Powerball balls inside the cloud ─────────────────── */
+/* Amber tint — distinct from the blue main balls */
+.num-ball.pb-ball-cloud {
+  background: rgba(245,158,106,0.06);
+  border-color: rgba(245,158,106,0.22);
+  color: rgba(245,158,106,0.7);
+}
+
+.num-ball.pb-ball-cloud:hover {
+  background: rgba(245,158,106,0.16);
+  border-color: rgba(245,158,106,0.55);
+  color: rgba(255,220,180,0.95);
+}
+
+.num-ball.pb-ball-cloud.selected {
+  background: rgba(245,158,106,0.26);
+  border-color: var(--sel-pb);
+  color: #fff;
+  box-shadow: 0 0 18px rgba(245,158,106,0.45), 0 0 6px rgba(245,158,106,0.25);
+  transform: translate(-50%, -50%) scale(1.08);
+  animation: none;
+}
+
+/* Fully invisible before 7 main numbers are chosen */
+.num-ball.pb-pending {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.num-ball.pb-ball-cloud.disabled {
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+/* ── Current pick panel ───────────────────────────────── */
+.current-pick-panel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 10px 14px;
+  min-height: 58px;
+  flex-shrink: 0;
+}
+
+.selected-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  flex: 1;
+  align-items: center;
+  min-height: 36px;
+}
+
+.pick-actions {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.action-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+  white-space: nowrap;
+}
+
+.action-btn:hover {
+  border-color: rgba(255,255,255,0.22);
+  color: rgba(255,255,255,0.7);
+}
+
+.action-btn.save-btn {
+  border-color: rgba(124,159,255,0.3);
+  color: var(--accent);
+}
+
+.action-btn.save-btn:hover {
+  background: rgba(124,159,255,0.1);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.action-btn.save-btn:disabled {
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.sel-chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 500;
+  animation: pop-in 0.22s cubic-bezier(0.22,1,0.36,1);
+  flex-shrink: 0;
+}
+
+.sel-chip.main {
+  background: rgba(124,159,255,0.18);
+  border: 1px solid var(--accent);
+  color: #fff;
+  box-shadow: 0 0 8px rgba(124,159,255,0.25);
+}
+
+.sel-chip.pb {
+  background: rgba(245,158,106,0.18);
+  border: 1px solid var(--sel-pb);
+  color: #fff;
+  box-shadow: 0 0 8px rgba(245,158,106,0.25);
+}
+
+.sel-placeholder {
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@keyframes pop-in {
+  from { transform: scale(0.6); opacity: 0; }
+  to   { transform: scale(1);   opacity: 1; }
+}
+
+/* ── History panel ─────────────────────────────────────── */
+.history-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: max-height 0.35s cubic-bezier(0.4,0,0.2,1);
+}
+
+.history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 14px;
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  user-select: none;
+}
+
+.history-title {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: rgba(255,255,255,0.4);
+}
+
+.history-count {
+  margin-left: 6px;
+  background: rgba(124,159,255,0.15);
+  color: var(--accent);
+  border-radius: 20px;
+  padding: 1px 7px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.history-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.clear-all-btn {
+  font-size: 11px;
+  color: rgba(255,255,255,0.25);
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 2px 0;
+}
+
+.clear-all-btn:hover {
+  color: rgba(255,255,255,0.6);
+}
+
+.history-chevron {
+  font-size: 18px;
+  line-height: 1;
+  color: rgba(255,255,255,0.25);
+  transition: transform 0.3s;
+  display: inline-block;
+}
+
+.history-panel.open .history-chevron {
+  transform: rotate(90deg);
+}
+
+.history-list {
+  max-height: 0;
+  overflow-y: auto;
+  transition: max-height 0.35s cubic-bezier(0.4,0,0.2,1);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.1) transparent;
+}
+
+.history-panel.open .history-list {
+  max-height: 220px;
+}
+
+.history-empty {
+  padding: 10px 14px 12px;
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.history-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 14px;
+  border-top: 1px solid var(--border);
+  animation: slide-in 0.2s ease;
+}
+
+.history-row:first-child {
+  border-top: 1px solid var(--border);
+}
+
+@keyframes slide-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.history-chips {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.history-chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.history-chip.main {
+  background: rgba(124,159,255,0.12);
+  border: 1px solid rgba(124,159,255,0.35);
+  color: rgba(200,215,255,0.9);
+}
+
+.history-chip.pb {
+  background: rgba(245,158,106,0.12);
+  border: 1px solid rgba(245,158,106,0.35);
+  color: rgba(255,210,170,0.9);
+}
+
+.history-sep {
+  color: rgba(255,255,255,0.15);
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.history-remove {
+  background: transparent;
+  border: none;
+  color: rgba(255,255,255,0.18);
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: color 0.2s;
+  flex-shrink: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.history-remove:hover {
+  color: rgba(255,100,100,0.7);
+}

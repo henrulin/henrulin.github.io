@@ -38,6 +38,7 @@ const historyPanel  = document.getElementById('history-panel');
 const historyToggle = document.getElementById('history-toggle');
 const historyList   = document.getElementById('history-list');
 const historyCount  = document.getElementById('history-count');
+const exportBtn     = document.getElementById('export-btn');
 const clearAllBtn   = document.getElementById('clear-all-btn');
 
 // ── Blob background animation ─────────────────────────────
@@ -275,6 +276,42 @@ function clearAll() {
   renderHistory();
 }
 
+// ── Export history as markdown ────────────────────────────
+function exportHistory() {
+  if (savedPicks.length === 0) return;
+  
+  let mdContent = '# Numbers · Saved Picks\n\n';
+  
+  savedPicks.forEach((pick, idx) => {
+    const pickNum = savedPicks.length - idx;
+    const modeLabel = MODES[pick.mode].label;
+    const mainStr = pick.main.join(', ');
+    
+    mdContent += `### Pick ${pickNum}: ${modeLabel}\n`;
+    mdContent += `- Main Numbers: **${mainStr}**\n`;
+    if (pick.pb !== null) {
+      mdContent += `- Powerball: **${pick.pb}**\n`;
+    }
+    mdContent += '\n';
+  });
+
+  const blob = new Blob([mdContent], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  
+  const now = new Date();
+  const yyyy = now.getFullYear();
+  const mm = String(now.getMonth() + 1).padStart(2, '0');
+  const dd = String(now.getDate()).padStart(2, '0');
+  a.download = `numbers-picks-${yyyy}-${mm}-${dd}.md`;
+  
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
 // ── Render history list ───────────────────────────────────
 function renderHistory() {
   historyCount.textContent = savedPicks.length;
@@ -398,9 +435,16 @@ clearBtn.addEventListener('click', () => {
 });
 
 historyToggle.addEventListener('click', (e) => {
-  // Don't toggle if clicking clear-all
-  if (e.target === clearAllBtn || clearAllBtn.contains(e.target)) return;
+  // Don't toggle if clicking clear-all or export
+  const isActionBtn = e.target === clearAllBtn || clearAllBtn.contains(e.target) || 
+                      e.target === exportBtn || exportBtn.contains(e.target);
+  if (isActionBtn) return;
   toggleHistory();
+});
+
+exportBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  exportHistory();
 });
 
 clearAllBtn.addEventListener('click', (e) => {

@@ -385,6 +385,7 @@ html, body {
   gap: 12px;
 }
 
+.export-btn,
 .clear-all-btn {
   font-size: 11px;
   color: rgba(255,255,255,0.25);
@@ -393,6 +394,7 @@ html, body {
   padding: 2px 0;
 }
 
+.export-btn:hover,
 .clear-all-btn:hover {
   color: rgba(255,255,255,0.6);
 }

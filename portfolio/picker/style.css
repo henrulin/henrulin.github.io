@@ -36,6 +36,17 @@ html, body {
   gap: 14px;
 }
 
+@media (max-width: 430px) {
+  :root {
+    --num-size: 24px;
+    --num-font: 9px;
+  }
+  .app {
+    padding: 16px 12px 12px;
+    gap: 8px;
+  }
+}
+
 /* ── Header ───────────────────────────────────────────── */
 .header {
   display: flex;
@@ -222,6 +233,13 @@ html, body {
   padding: 10px 14px;
   min-height: 58px;
   flex-shrink: 0;
+}
+
+@media (max-width: 430px) {
+  .current-pick-panel {
+    padding: 8px 10px;
+    min-height: 50px;
+  }
 }
 
 .selected-row {

@@ -92,13 +92,25 @@ function drawBlob() {
 
 // ── Organic number placement ──────────────────────────────
 function placeNumbers(n, containerW, containerH) {
+  const isMobile = window.innerWidth <= 430;
   const cx = containerW / 2;
   const cy = containerH / 2;
-  const rx = containerW * 0.44;
-  const ry = containerH * 0.46;
-  const ballR = 26;
+  
+  // Ellipse ratios per spec (Tier 1 vs Tier 2)
+  const rx = containerW * (isMobile ? 0.49 : 0.44);
+  const ry = containerH * (isMobile ? 0.49 : 0.46);
+  
+  // Read ball radius from computed style (CSS variable --num-size)
+  const computedStyle = getComputedStyle(document.documentElement);
+  const numSizePx = parseFloat(computedStyle.getPropertyValue('--num-size')) || 44;
+  const ballR = numSizePx / 2;
+  
+  // Min distance buffer: Tier 1 (+5px), Tier 2 (+2px)
+  const buffer = isMobile ? 2 : 5;
+  const minDist = ballR * 2 + buffer;
+
   const positions = [];
-  const maxAttempts = 1000;
+  const maxAttempts = isMobile ? 2000 : 1000;
 
   function randInEllipse() {
     const angle = Math.random() * Math.PI * 2;
@@ -117,7 +129,7 @@ function placeNumbers(n, containerW, containerH) {
       for (const q of positions) {
         const dx = p.x - q.x;
         const dy = p.y - q.y;
-        if (Math.sqrt(dx * dx + dy * dy) < ballR * 2 + 5) { ok = false; break; }
+        if (Math.sqrt(dx * dx + dy * dy) < minDist) { ok = false; break; }
       }
       if (ok) { positions.push(p); accepted = true; }
     }

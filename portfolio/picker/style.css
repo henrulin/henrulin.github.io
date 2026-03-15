@@ -21,6 +21,8 @@
 
 html, body {
   height: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
   background: var(--bg);
   color: var(--text);
   overflow: hidden;
@@ -30,9 +32,11 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  height: 100dvh;
   max-width: 900px;
   margin: 0 auto;
   padding: 24px 20px 16px;
+  padding-bottom: calc(16px + env(safe-area-inset-bottom));
   gap: 14px;
 }
 
@@ -43,6 +47,7 @@ html, body {
   }
   .app {
     padding: 16px 12px 12px;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom));
     gap: 8px;
   }
 }
